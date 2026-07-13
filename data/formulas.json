@@ -1,0 +1,32 @@
+{
+  "standard_totals": {
+    "matric": 1100,
+    "fsc": 1100,
+    "mdcat": 200,
+    "ecat": 400,
+    "net": 100,
+    "nu_test": 100
+  },
+  "universities": {
+    "King Edward Medical University": {
+      "aliases": ["KEMU", "King Edward"],
+      "formula": {"matric": 0.10, "fsc": 0.40, "mdcat": 0.50},
+      "formula_display": "10% Matric + 40% FSc + 50% MDCAT"
+    },
+    "UET Lahore": {
+      "aliases": ["UET", "UET Lahore"],
+      "formula": {"matric": 0.25, "fsc": 0.45, "ecat": 0.30},
+      "formula_display": "25% Matric + 45% FSc + 30% ECAT"
+    },
+    "NUST": {
+      "aliases": ["NUST", "National University of Sciences and Technology"],
+      "formula": {"fsc": 0.25, "net": 0.75},
+      "formula_display": "25% FSc + 75% NET"
+    },
+    "FAST NUCES": {
+      "aliases": ["FAST", "NUCES", "FAST-NUCES", "FAST Lahore", "FAST Islamabad", "FAST Karachi", "FAST Peshawar"],
+      "formula": {"fsc": 0.50, "nu_test": 0.50},
+      "formula_display": "50% FSc + 50% NU Test"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+  "state": {
+    "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 980,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 940,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 142,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 74.61,
+    "eligibility": true,
+    "advice": "You have met the eligibility criteria and your calculated merit score of 74.61% is quite competitive, considering your strong performance in the NET with 142 out of 200 and your FSC marks. Given the merit formula used, with 25% weightage on FSC and 75% on NET, your score is a testament to your hard work. As you are eligible for admission to NUST, we encourage you to proceed with the application process, and we wish you the best of luck in securing a spot at this prestigious institution.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1187,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 980,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 940,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 142,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 74.61,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1696,
+        "output": {
+          "advice": "You have met the eligibility criteria and your calculated merit score of 74.61% is quite competitive, considering your strong performance in the NET with 142 out of 200 and your FSC marks. Given the merit formula used, with 25% weightage on FSC and 75% on NET, your score is a testament to your hard work. As you are eligible for admission to NUST, we encourage you to proceed with the application process, and we wish you the best of luck in securing a spot at this prestigious institution."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1449,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given, as it accurately reflects the student's competitive merit score and eligibility status, providing a positive and encouraging message while also being grounded in the student's actual performance."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given, as it accurately reflects the student's competitive merit score and eligibility status, providing a positive and encouraging message while also being grounded in the student's actual performance."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:13:09.130359Z",
+  "pipeline_version": "v3"
+}

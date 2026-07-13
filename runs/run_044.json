@@ -1,0 +1,116 @@
+{
+  "student_input": "I got 1010/1100 in Matric, 970/1100 in FSc and 185 in MDCAT. I want to apply to King Edward Medical University.",
+  "state": {
+    "student_input": "I got 1010/1100 in Matric, 970/1100 in FSc and 185 in MDCAT. I want to apply to King Edward Medical University.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 1010,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 970,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": 185,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "King Edward Medical University"
+    },
+    "formula": {
+      "matric": 0.1,
+      "fsc": 0.4,
+      "mdcat": 0.5
+    },
+    "merit_score": 90.7,
+    "eligibility": true,
+    "advice": "Congratulations, you have met the eligibility criteria for admission to King Edward Medical University. With your calculated merit score of 90.7%, you have a strong chance of securing a spot. Your academic achievements, including your matric and FSC marks, have contributed significantly to this score, and your performance in the MDCAT has also been impressive. Keep in mind that the merit formula used by the university, which allocates 10% weightage to your matric marks, 40% to your FSC marks, and 50% to your MDCAT score, has worked in your favor. We encourage you to proceed with the admission process, and we wish you the best of luck in your future academic endeavors.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1503,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 1010,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 970,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": 185,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "King Edward Medical University"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 1,
+        "output": {
+          "formula": {
+            "matric": 0.1,
+            "fsc": 0.4,
+            "mdcat": 0.5
+          },
+          "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+          "found": true,
+          "matched_university": "King Edward Medical University"
+        }
+      },
+      "calculator": {
+        "duration_ms": 1,
+        "output": {
+          "merit_score": 90.7,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1866,
+        "output": {
+          "advice": "Congratulations, you have met the eligibility criteria for admission to King Edward Medical University. With your calculated merit score of 90.7%, you have a strong chance of securing a spot. Your academic achievements, including your matric and FSC marks, have contributed significantly to this score, and your performance in the MDCAT has also been impressive. Keep in mind that the merit formula used by the university, which allocates 10% weightage to your matric marks, 40% to your FSC marks, and 50% to your MDCAT score, has worked in your favor. We encourage you to proceed with the admission process, and we wish you the best of luck in your future academic endeavors."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1451,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. The merit score of 90.7% is considered strong, and the explanation of the merit formula and its impact on the score is clear and accurate. The advice to proceed with the admission process is also appropriate given the student's eligibility status."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. The merit score of 90.7% is considered strong, and the explanation of the merit formula and its impact on the score is clear and accurate. The advice to proceed with the admission process is also appropriate given the student's eligibility status."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "King Edward Medical University"
+  },
+  "timestamp": "2026-07-11T07:12:54.744459Z",
+  "pipeline_version": "v3"
+}

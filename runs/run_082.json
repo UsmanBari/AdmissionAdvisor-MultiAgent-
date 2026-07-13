@@ -1,0 +1,31 @@
+{
+  "student_input": "I got 920/1100 in FSc and scored 75 in my FAST Entry Test (NU Test). I want to apply to FAST Lahore.",
+  "state": {
+    "student_input": "I got 920/1100 in FSc and scored 75 in my FAST Entry Test (NU Test). I want to apply to FAST Lahore.",
+    "student_profile": {},
+    "formula": {},
+    "merit_score": 0.0,
+    "eligibility": false,
+    "advice": "",
+    "checked": false,
+    "grader_score": {},
+    "errors": [
+      "Reader LLM Service call failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k22xzgzpehy9j36d81fg1bym` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99951, Requested 352. Please try again in 4m21.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    ],
+    "stage": "failed_at_reader",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 3869,
+        "output": {}
+      }
+    },
+    "checker_verdict": {},
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": null,
+    "cache_hit": false,
+    "run_file": "run_082.json"
+  },
+  "timestamp": "2026-07-11T07:27:25.682346Z",
+  "pipeline_version": "v3"
+}

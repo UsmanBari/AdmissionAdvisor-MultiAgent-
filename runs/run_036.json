@@ -1,0 +1,114 @@
+{
+  "student_input": "My FSc marks are 550/1100 and NET is 98/200. I want to apply to NUST.",
+  "state": {
+    "student_input": "My FSc marks are 550/1100 and NET is 98/200. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": null,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 550,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 98,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 49.25,
+    "eligibility": false,
+    "advice": "Although your calculated merit score of 49.25% is a good effort, unfortunately, you do not meet the eligibility cutoff for admission to NUST at this time. To improve your chances, consider focusing on enhancing your FSC and NET scores, as these are weighted at 25% and 75% respectively in the merit formula. With a strong performance in these areas, you may be able to increase your merit score and become a more competitive candidate in the future.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 2311,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": null,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 550,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 98,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 1,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 1,
+        "output": {
+          "merit_score": 49.25,
+          "eligibility": false,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1616,
+        "output": {
+          "advice": "Although your calculated merit score of 49.25% is a good effort, unfortunately, you do not meet the eligibility cutoff for admission to NUST at this time. To improve your chances, consider focusing on enhancing your FSC and NET scores, as these are weighted at 25% and 75% respectively in the merit formula. With a strong performance in these areas, you may be able to increase your merit score and become a more competitive candidate in the future."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1456,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly communicates the student's ineligibility, provides a specific reason, and offers actionable suggestions for improvement."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly communicates the student's ineligibility, provides a specific reason, and offers actionable suggestions for improvement."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:06:55.862693Z",
+  "pipeline_version": "v3"
+}

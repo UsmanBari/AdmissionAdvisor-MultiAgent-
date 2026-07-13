@@ -1,0 +1,164 @@
+{
+  "mark_of_zero": {
+    "params": {
+      "marks": {
+        "matric": {
+          "obtained": 0,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 800,
+          "total": 1100
+        }
+      },
+      "formula": {
+        "matric": 0.5,
+        "fsc": 0.5
+      },
+      "standard_totals": {
+        "matric": 1100,
+        "fsc": 1100
+      }
+    },
+    "output": {
+      "merit_score": 36.36,
+      "eligibility": false,
+      "error": null
+    },
+    "crashed": false
+  },
+  "mark_higher_than_total": {
+    "params": {
+      "marks": {
+        "matric": {
+          "obtained": 1200,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 800,
+          "total": 1100
+        }
+      },
+      "formula": {
+        "matric": 0.5,
+        "fsc": 0.5
+      },
+      "standard_totals": {
+        "matric": 1100,
+        "fsc": 1100
+      }
+    },
+    "output": {
+      "merit_score": 90.91,
+      "eligibility": true,
+      "error": null
+    },
+    "crashed": false
+  },
+  "negative_mark": {
+    "params": {
+      "marks": {
+        "matric": {
+          "obtained": -50,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 800,
+          "total": 1100
+        }
+      },
+      "formula": {
+        "matric": 0.5,
+        "fsc": 0.5
+      },
+      "standard_totals": {
+        "matric": 1100,
+        "fsc": 1100
+      }
+    },
+    "output": {
+      "merit_score": 34.09,
+      "eligibility": false,
+      "error": null
+    },
+    "crashed": false
+  },
+  "total_of_zero": {
+    "params": {
+      "marks": {
+        "matric": {
+          "obtained": 900,
+          "total": 0
+        },
+        "fsc": {
+          "obtained": 800,
+          "total": 1100
+        }
+      },
+      "formula": {
+        "matric": 0.5,
+        "fsc": 0.5
+      },
+      "standard_totals": {
+        "matric": 1100,
+        "fsc": 1100
+      }
+    },
+    "output": {
+      "merit_score": null,
+      "eligibility": false,
+      "error": "missing required total for subject: matric"
+    },
+    "crashed": false
+  },
+  "exact_cutoff_boundary": {
+    "params": {
+      "marks": {
+        "matric": {
+          "obtained": 550,
+          "total": 1100
+        }
+      },
+      "formula": {
+        "matric": 1.0
+      },
+      "standard_totals": {
+        "matric": 1100
+      }
+    },
+    "output": {
+      "merit_score": 50.0,
+      "eligibility": true,
+      "error": null
+    },
+    "crashed": false
+  },
+  "non_sum_one_weights": {
+    "params": {
+      "marks": {
+        "matric": {
+          "obtained": 1100,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 1100,
+          "total": 1100
+        }
+      },
+      "formula": {
+        "matric": 0.5,
+        "fsc": 0.3
+      },
+      "standard_totals": {
+        "matric": 1100,
+        "fsc": 1100
+      }
+    },
+    "output": {
+      "merit_score": 80.0,
+      "eligibility": true,
+      "error": null
+    },
+    "crashed": false
+  }
+}

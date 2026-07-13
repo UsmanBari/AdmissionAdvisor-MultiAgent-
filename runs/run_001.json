@@ -1,0 +1,16 @@
+{
+  "student_input": "I got 1010/1100 in Matric, 970/1100 in FSc and 185 in MDCAT. I want to apply to King Edward Medical University.",
+  "state": {
+    "student_input": "I got 1010/1100 in Matric, 970/1100 in FSc and 185 in MDCAT. I want to apply to King Edward Medical University.",
+    "student_profile": {},
+    "formula": {},
+    "merit_score": 87.09,
+    "eligibility": true,
+    "advice": "You have a strong academic profile, with good scores in Matric, FSc, and MDCAT. King Edward Medical University is a competitive institution, but your merit score of 87.09 makes you a competitive candidate. Ensure you meet all other eligibility criteria and submit your application carefully to increase your chances of selection.",
+    "checked": false,
+    "grader_score": {},
+    "errors": []
+  },
+  "timestamp": "2026-07-11T06:35:27.318976Z",
+  "prompt_version": "single_agent_v1.md"
+}

@@ -1,0 +1,87 @@
+{
+  "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+  "state": {
+    "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 980,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 940,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 142,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 74.61,
+    "eligibility": true,
+    "advice": "Congratulations on achieving a merit score of 74.61%! Given your profile and the merit formula used, with 25% weightage on FSC and 75% on NET, your performance in the NET exam, where you scored 142 out of 200, has significantly contributed to your overall score. Since you are eligible, focus on preparing for the next steps in the admission process. Consider improving your NET score if possible, as it has the most impact on your merit score. With your current score, you have a competitive edge, but always strive for improvement. Best of luck with your admission to NUST!",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "marks": {
+          "matric": {
+            "obtained": 980,
+            "total": 1100
+          },
+          "fsc": {
+            "obtained": 940,
+            "total": 1100
+          },
+          "mdcat": {
+            "obtained": null,
+            "total": null
+          },
+          "ecat": {
+            "obtained": null,
+            "total": null
+          },
+          "net": {
+            "obtained": 142,
+            "total": 200
+          }
+        },
+        "university_raw": "NUST"
+      },
+      "formula_picker": {
+        "formula": {
+          "fsc": 0.25,
+          "net": 0.75
+        },
+        "formula_display": "25% FSc + 75% NET",
+        "found": true
+      },
+      "calculator": {
+        "merit_score": 74.61,
+        "eligibility": true,
+        "error": null
+      },
+      "advisor": {
+        "advice": "Congratulations on achieving a merit score of 74.61%! Given your profile and the merit formula used, with 25% weightage on FSC and 75% on NET, your performance in the NET exam, where you scored 142 out of 200, has significantly contributed to your overall score. Since you are eligible, focus on preparing for the next steps in the admission process. Consider improving your NET score if possible, as it has the most impact on your merit score. With your current score, you have a competitive edge, but always strive for improvement. Best of luck with your admission to NUST!"
+      }
+    }
+  },
+  "timestamp": "2026-07-11T06:42:54.109491Z",
+  "pipeline_version": "pipeline_v1"
+}

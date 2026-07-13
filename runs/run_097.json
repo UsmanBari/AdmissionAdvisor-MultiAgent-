@@ -1,0 +1,113 @@
+{
+  "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+  "state": {
+    "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 980,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 940,
+          "total": 1100
+        },
+        "net": {
+          "obtained": 142,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST for computer science"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 74.61,
+    "eligibility": true,
+    "advice": "I appreciate your hard work and dedication, especially in the NET exam, where you scored 71.5% (142 out of 200). However, your overall merit score of 74.61% indicates that there's still room for improvement. While you've met the eligibility criteria, admission to NUST for computer science is highly competitive, and a merit score below the average may put you at a disadvantage. I would advise you to focus on improving your performance in the FSC exam, where you scored 85.45% (940 out of 1100). With a bit more effort, you can increase your chances of securing admission to your desired university. Keep in mind that it's not impossible to get admitted, but it's essential to be realistic about your chances and work towards improving your academic performance. Stay motivated and focused, and don't hesitate to reach out if you need any guidance or support.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 906,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 980,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 940,
+              "total": 1100
+            },
+            "net": {
+              "obtained": 142,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST for computer science"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 974,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 74.61,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1112,
+        "output": {
+          "advice": "Congratulations on your calculated merit score of 74.61%! Given your strong performance in the NET exam, which accounts for 75% of your merit score, it's clear that you've put in a lot of effort and dedication. Your marks in the FSC exam, although not as high, still contribute to a respectable overall merit score. As you've met the eligibility criteria, you're one step closer to pursuing your dream of studying computer science at NUST. Keep in mind that admission to top universities like NUST is highly competitive, so it's essential to stay focused and work towards achieving your goals. With persistence and hard work, you can overcome any challenges that come your way. Keep up the good work and stay motivated!"
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 893,
+        "output": {
+          "approved": false,
+          "reason": "The advice is overly optimistic and does not accurately reflect the student's merit score. A merit score of 74.61 is below the average and may not be competitive for admission to a top university like NUST. The advice should be more realistic and cautionary, advising the student to work harder to improve their performance."
+        }
+      },
+      "advisor_attempt_2": {
+        "duration_ms": 1228,
+        "output": {
+          "advice": "I appreciate your hard work and dedication, especially in the NET exam, where you scored 71.5% (142 out of 200). However, your overall merit score of 74.61% indicates that there's still room for improvement. While you've met the eligibility criteria, admission to NUST for computer science is highly competitive, and a merit score below the average may put you at a disadvantage. I would advise you to focus on improving your performance in the FSC exam, where you scored 85.45% (940 out of 1100). With a bit more effort, you can increase your chances of securing admission to your desired university. Keep in mind that it's not impossible to get admitted, but it's essential to be realistic about your chances and work towards improving your academic performance. Stay motivated and focused, and don't hesitate to reach out if you need any guidance or support."
+        }
+      },
+      "checker_attempt_2": {
+        "duration_ms": 865,
+        "output": {
+          "approved": false,
+          "reason": "The advice is overly optimistic, suggesting that the student can 'increase their chances of securing admission' despite having a merit score below the average. This contradicts the statement that admission to NUST for computer science is 'highly competitive' and that a merit score below the average may put the student at a disadvantage."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": false,
+      "reason": "The advice is overly optimistic, suggesting that the student can 'increase their chances of securing admission' despite having a merit score below the average. This contradicts the statement that admission to NUST for computer science is 'highly competitive' and that a merit score below the average may put the student at a disadvantage."
+    },
+    "rewrite_count": 1,
+    "pipeline_version": "v3",
+    "university_matched": "NUST",
+    "cache_hit": false,
+    "run_file": "run_097.json"
+  },
+  "timestamp": "2026-07-11T07:31:18.089650Z",
+  "pipeline_version": "v3"
+}

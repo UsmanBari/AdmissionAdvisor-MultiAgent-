@@ -1,0 +1,79 @@
+{
+  "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+  "state": {
+    "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 980,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 940,
+          "total": 1100
+        },
+        "net": {
+          "obtained": 142,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST for computer science"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 74.61,
+    "eligibility": true,
+    "advice": "I appreciate your hard work and dedication, especially in the NET exam, where you scored 71.5% (142 out of 200). However, your overall merit score of 74.61% indicates that there's still room for improvement. While you've met the eligibility criteria, admission to NUST for computer science is highly competitive, and a merit score below the average may put you at a disadvantage. I would advise you to focus on improving your performance in the FSC exam, where you scored 85.45% (940 out of 1100). With a bit more effort, you can increase your chances of securing admission to your desired university. Keep in mind that it's not impossible to get admitted, but it's essential to be realistic about your chances and work towards improving your academic performance. Stay motivated and focused, and don't hesitate to reach out if you need any guidance or support.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1433,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 980,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 940,
+              "total": 1100
+            },
+            "net": {
+              "obtained": 142,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST for computer science"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 1297,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": false,
+      "reason": "The advice is overly optimistic, suggesting that the student can 'increase their chances of securing admission' despite having a merit score below the average. This contradicts the statement that admission to NUST for computer science is 'highly competitive' and that a merit score below the average may put the student at a disadvantage."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST",
+    "cache_hit": true,
+    "run_file": "run_109.json"
+  },
+  "timestamp": "2026-07-11T07:35:01.382494Z",
+  "pipeline_version": "v3"
+}

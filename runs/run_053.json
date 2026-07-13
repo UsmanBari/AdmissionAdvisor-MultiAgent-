@@ -1,0 +1,114 @@
+{
+  "student_input": "My FSc marks are 550/1100 and NET is 98/200. I want to apply to NUST.",
+  "state": {
+    "student_input": "My FSc marks are 550/1100 and NET is 98/200. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": null,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 550,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 98,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 49.25,
+    "eligibility": false,
+    "advice": "Although your calculated merit score of 49.25% is a good effort, unfortunately, you do not meet the eligibility cutoff for admission to NUST at this time. To improve your chances, consider focusing on enhancing your FSC and NET scores, as these carry significant weightage in the merit formula, with FSC accounting for 25% and NET for 75% of your overall score. With dedication and hard work, you can work towards achieving the required eligibility criteria and increasing your merit score for future admissions.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1951,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": null,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 550,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 98,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 1,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 49.25,
+          "eligibility": false,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 2209,
+        "output": {
+          "advice": "Although your calculated merit score of 49.25% is a good effort, unfortunately, you do not meet the eligibility cutoff for admission to NUST at this time. To improve your chances, consider focusing on enhancing your FSC and NET scores, as these carry significant weightage in the merit formula, with FSC accounting for 25% and NET for 75% of your overall score. With dedication and hard work, you can work towards achieving the required eligibility criteria and increasing your merit score for future admissions."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1928,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly states that the student does not meet the eligibility criteria, provides a breakdown of the merit formula, and offers constructive suggestions for improvement."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly states that the student does not meet the eligibility criteria, provides a breakdown of the merit formula, and offers constructive suggestions for improvement."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:13:43.253876Z",
+  "pipeline_version": "v3"
+}

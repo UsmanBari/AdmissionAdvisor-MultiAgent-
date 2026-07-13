@@ -1,0 +1,89 @@
+{
+  "student_input": "Hello, I got 950 marks in Matric, 880 in FSc and my ECAT score is 230 out of 400. Can I get admission in UET Lahore?",
+  "state": {
+    "student_input": "Hello, I got 950 marks in Matric, 880 in FSc and my ECAT score is 230 out of 400. Can I get admission in UET Lahore?",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 950,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 880,
+          "total": null
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": 230,
+          "total": 400
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "UET Lahore"
+    },
+    "formula": {
+      "matric": 0.25,
+      "fsc": 0.45,
+      "ecat": 0.3
+    },
+    "merit_score": 74.84,
+    "eligibility": true,
+    "advice": "Congratulations on achieving a merit score of 74.84%! Given your profile and the merit formula used, with 0.25 weightage on matric, 0.45 on FSC, and 0.3 on ECAT, it's clear that your hard work in FSC with 880 marks has significantly contributed to your score. Since you're eligible for admission to UET Lahore, focus on preparing for any additional interviews or assessments. With an ECAT score of 230 out of 400, consider how you can further improve your performance in such tests for future opportunities. Keep in mind that your matric score of 950 has also positively impacted your merit score. Stay confident and prepare well for the next steps in your academic journey.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "marks": {
+          "matric": {
+            "obtained": 950,
+            "total": null
+          },
+          "fsc": {
+            "obtained": 880,
+            "total": null
+          },
+          "mdcat": {
+            "obtained": null,
+            "total": null
+          },
+          "ecat": {
+            "obtained": 230,
+            "total": 400
+          },
+          "net": {
+            "obtained": null,
+            "total": null
+          }
+        },
+        "university_raw": "UET Lahore"
+      },
+      "formula_picker": {
+        "formula": {
+          "matric": 0.25,
+          "fsc": 0.45,
+          "ecat": 0.3
+        },
+        "formula_display": "25% Matric + 45% FSc + 30% ECAT",
+        "found": true
+      },
+      "calculator": {
+        "merit_score": 74.84,
+        "eligibility": true,
+        "error": null
+      },
+      "advisor": {
+        "advice": "Congratulations on achieving a merit score of 74.84%! Given your profile and the merit formula used, with 0.25 weightage on matric, 0.45 on FSC, and 0.3 on ECAT, it's clear that your hard work in FSC with 880 marks has significantly contributed to your score. Since you're eligible for admission to UET Lahore, focus on preparing for any additional interviews or assessments. With an ECAT score of 230 out of 400, consider how you can further improve your performance in such tests for future opportunities. Keep in mind that your matric score of 950 has also positively impacted your merit score. Stay confident and prepare well for the next steps in your academic journey."
+      }
+    }
+  },
+  "timestamp": "2026-07-11T06:42:56.900311Z",
+  "pipeline_version": "pipeline_v1"
+}

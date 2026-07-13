@@ -1,0 +1,114 @@
+{
+  "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, NET: 80. I also got 80 in Chemistry. I want to apply to NUST.",
+  "state": {
+    "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, NET: 80. I also got 80 in Chemistry. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 980,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 940,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 80,
+          "total": null
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 81.36,
+    "eligibility": true,
+    "advice": "Congratulations on achieving an impressive merit score of 81.36%! With your FSC marks and NET score, you have a strong profile for NUST admissions. Since the merit formula weighs NET scores heavily at 75%, your score of 80 has significantly contributed to your overall merit score. Given your eligibility status is true, you should feel confident about your application. Ensure you meet all other requirements and submit your application carefully to maximize your chances of securing a spot at NUST. Best of luck!",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1333,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 980,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 940,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 80,
+              "total": null
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 81.36,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 2199,
+        "output": {
+          "advice": "Congratulations on achieving an impressive merit score of 81.36%! With your FSC marks and NET score, you have a strong profile for NUST admissions. Since the merit formula weighs NET scores heavily at 75%, your score of 80 has significantly contributed to your overall merit score. Given your eligibility status is true, you should feel confident about your application. Ensure you meet all other requirements and submit your application carefully to maximize your chances of securing a spot at NUST. Best of luck!"
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1476,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It provides a clear explanation of the merit score calculation, acknowledges the student's strong profile, and offers practical guidance on the next steps, which is appropriate for an eligible student with a high merit score."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It provides a clear explanation of the merit score calculation, acknowledges the student's strong profile, and offers practical guidance on the next steps, which is appropriate for an eligible student with a high merit score."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:02:03.858429Z",
+  "pipeline_version": "v3"
+}

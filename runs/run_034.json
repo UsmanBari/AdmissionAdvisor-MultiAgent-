@@ -1,0 +1,114 @@
+{
+  "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+  "state": {
+    "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 980,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 940,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 142,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 74.61,
+    "eligibility": true,
+    "advice": "You are eligible for admission, which is a significant achievement, and your calculated merit score of 74.61% is quite competitive. To put this into perspective, your score is a result of weighing your FSC marks at 25% and your NET marks at 75%, according to the university's merit formula. Given your strong performance, particularly in the NET with a score of 142 out of 200, you have a good chance of securing a spot. Keep in mind that admission criteria can be rigorous, but with your current standing, you should feel confident about your prospects. It's essential to stay informed about the admission process and any additional requirements that NUST may have. Overall, your hard work has paid off, and you should be proud of your accomplishments so far.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1743,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 980,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 940,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 142,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 74.61,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1891,
+        "output": {
+          "advice": "You are eligible for admission, which is a significant achievement, and your calculated merit score of 74.61% is quite competitive. To put this into perspective, your score is a result of weighing your FSC marks at 25% and your NET marks at 75%, according to the university's merit formula. Given your strong performance, particularly in the NET with a score of 142 out of 200, you have a good chance of securing a spot. Keep in mind that admission criteria can be rigorous, but with your current standing, you should feel confident about your prospects. It's essential to stay informed about the admission process and any additional requirements that NUST may have. Overall, your hard work has paid off, and you should be proud of your accomplishments so far."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 2186,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It accurately explains the merit score calculation, highlights the student's strengths, and provides a balanced view of their chances while encouraging them to stay informed about the admission process."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It accurately explains the merit score calculation, highlights the student's strengths, and provides a balanced view of their chances while encouraging them to stay informed about the admission process."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:06:44.316931Z",
+  "pipeline_version": "v3"
+}

@@ -1,0 +1,146 @@
+{
+  "ts_001": {
+    "grader_v1.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v1.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advice is realistic because it accurately reflects the student's eligibility status and provides a reasonable assessment of their chances based on the merit score. The explanation of the merit formula and how the student's scores have contributed to their overall merit score is also accurate and helpful. The advice is helpful because it encourages the student to proceed with the admission process and offers best wishes for their future, providing a positive and supportive tone. However, the realism score is not a perfect 10 because the advice does not mention any potential risks or uncertainties in the admission process, and the helpfulness score is not a perfect 10 because the advice could provide more specific guidance on the next steps the student should take in the admission process.",
+      "advice_evaluated": "Congratulations, you have met the eligibility criteria for admission to King Edward Medical University. With your calculated merit score of 90.7%, you have a strong chance of securing a spot. Your academic achievements, including your matric and FSC marks, have contributed significantly to this score, and your performance in the MDCAT has also been impressive. Keep in mind that the merit formula used by the university, which allocates 10% weightage to your matric marks, 40% to your FSC marks, and 50% to your MDCAT score, has worked in your favor. We encourage you to proceed with the admission process, and we wish you the best of luck in your future academic endeavors."
+    },
+    "grader_v2.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v2.md",
+      "realism_score": 10,
+      "helpfulness_score": 10,
+      "reasoning": "The advice provided is both realistic and helpful. It accurately reflects the student's eligibility status and merit score, and offers constructive encouragement for the next steps in the admission process. The tone is professional, empathetic, and natural, without any robotic phrasing or direct mirroring of raw data fields. The advisor provides a balanced view, acknowledging the potential competition while emphasizing the student's strengths and hard work, making the advice highly supportive and motivating.",
+      "advice_evaluated": "Congratulations, you have met the eligibility criteria and your calculated merit score of 90.7% is quite impressive. Given your academic background, including your matric and FSC marks, combined with your performance in the MDCAT, you have a strong profile for admission to King Edward Medical University. With this merit score, you stand a good chance of securing a spot. It's essential to stay confident and prepared for the next steps in the admission process. Keep in mind that the competition can be fierce, but your current standing is a testament to your hard work and dedication. Best of luck as you move forward."
+    }
+  },
+  "ts_002": {
+    "grader_v1.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v1.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advisor's advice is realistic because it accurately reflects the student's eligibility status and provides a reasonable assessment of their merit score. The mention of the merit formula and the weightage of different components adds to the realism. The advice is also helpful as it encourages the student to identify areas of weakness and prepare for the next steps, which is constructive and encouraging. However, the realism score is not a perfect 10 because the advice could have provided more specific details about the areas of improvement and the next steps in the admission process. Similarly, the helpfulness score is 9 because while the advice is generally encouraging and provides some actionable steps, it could have been more detailed and specific to further assist the student.",
+      "advice_evaluated": "You are eligible for admission, which is a significant achievement. Your calculated merit score of 74.61% is competitive, considering your strong performance in the NET, where you scored 142 out of 200, and your FSC marks. Given the merit formula used, with a weightage of 25% for FSC and 75% for NET, your score indicates a good balance between these critical components. To further improve your chances, focus on any areas of weakness and prepare thoroughly for the next steps in the admission process. Keep in mind that meeting the eligibility criteria is just the first step, and a strong merit score like yours can make a significant difference in securing a spot at a prestigious institution like NUST."
+    },
+    "grader_v2.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v2.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advice provided is realistic and helpful, offering a balanced view of the student's chances based on their merit score and performance in the NET. The explanation of the university's merit formula and the breakdown of the student's scores provide valuable context. The tone is professional, empathetic, and encouraging, using natural language to communicate the student's eligibility and competitive standing. The advisor also provides actionable steps, such as staying informed about the admission process, which demonstrates a constructive approach. The only reason for not scoring a perfect 10 is that the advice could potentially be slightly more detailed in terms of next steps or additional requirements, but overall, it is well-written and effective.",
+      "advice_evaluated": "You are eligible for admission, which is a significant achievement, and your calculated merit score of 74.61% is quite competitive. To put this into perspective, your score is a result of weighing your FSC marks at 25% and your NET marks at 75%, according to the university's merit formula. Given your strong performance, particularly in the NET with a score of 142 out of 200, you have a good chance of securing a spot. Keep in mind that admission criteria can be rigorous, but with your current standing, you should feel confident about your prospects. It's essential to stay informed about the admission process and any additional requirements that NUST may have. Overall, your hard work has paid off, and you should be proud of your accomplishments so far."
+    }
+  },
+  "ts_003": {
+    "grader_v1.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v1.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advice is realistic because it acknowledges the student's eligibility based on the provided merit score and encourages them to review the specific requirements for UET Lahore, showing an understanding of the potential for unique criteria at different institutions. The advisor also explains the merit formula, which suggests a clear understanding of the admission process. The only reason it's not a perfect 10 for realism is that the advice could further emphasize the competitive nature of admissions, even for eligible students. The advice is helpful because it provides encouragement, suggests a review of the university's specific requirements, and advises the student to stay informed and continue preparing, which are all constructive steps for the student's next actions. The minor deduction from a perfect score for helpfulness is due to the advice not providing more detailed steps or resources for the student to utilize in their preparation and review process.",
+      "advice_evaluated": "You are eligible for admission, which is a significant achievement. With your calculated merit score of 74.84%, you have demonstrated a strong academic foundation, particularly considering your marks in the ECAT, where you scored 230 out of 400. To further enhance your chances, it would be beneficial to review the specific requirements for UET Lahore, as each institution may have unique criteria. However, given your current standing, you should feel confident about your application. Keep in mind that the merit formula, which allocates 25% to your matric results, 45% to your FSC results, and 30% to your ECAT score, has been applied to reach your merit score. Continue to prepare and stay informed about the admission process to make the most of this opportunity."
+    },
+    "grader_v2.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v2.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advice provided is both realistic and helpful. It accurately reflects the student's eligibility status and merit score, and offers constructive guidance on how to proceed with the application process. The tone is professional, empathetic, and natural, without any robotic phrasing. The advisor highlights the student's strengths, such as their FSC marks, and encourages them to meet all other requirements for UET Lahore, demonstrating a clear understanding of the admission process. The only reason for not scoring a perfect 10 is that the advice could be even more detailed in terms of specific next steps or additional criteria to focus on, but overall, it provides a balanced and encouraging message to the student.",
+      "advice_evaluated": "You are eligible for admission, which is a significant achievement. With your calculated merit score of 74.84%, you have demonstrated a strong academic foundation, particularly considering your marks in the FSC and matric exams, as well as your performance in the ECAT with a score of 230 out of 400. Given that the merit formula emphasizes FSC marks, your score of 880 is a notable strength. To further enhance your application, ensure you meet all other requirements for UET Lahore. Focus on any additional criteria that may be considered, and be prepared for the next steps in the admission process. Your hard work has paid off so far, and with persistence, you can look forward to a successful academic journey ahead."
+    }
+  },
+  "ts_004": {
+    "grader_v1.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v1.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advisor's advice is realistic because it accurately reflects the student's ineligibility for NUST admission based on the provided merit score. The advice also correctly identifies areas for improvement, specifically the FSC and NET scores, which are crucial for the merit formula. The only reason for not giving a perfect realism score is the assumption of the exact weightage of FSC and NET scores in the merit formula, which might not be publicly known or could vary. The advice is helpful as it provides constructive feedback, encourages the student to work on specific areas, and offers a positive outlook for future admission prospects, thus motivating the student to continue striving for improvement.",
+      "advice_evaluated": "Although your calculated merit score of 49.25% is a good effort, unfortunately, you do not meet the eligibility criteria for admission to NUST at this time. To improve your chances, consider focusing on enhancing your FSC and NET scores, as they are crucial components of the merit formula, with weights of 25% and 75% respectively. Given your NET score of 98 out of 200, exploring ways to improve this score could significantly impact your overall merit score. Keep working hard and stay committed to your goals, and you may find yourself better positioned for admission in the future."
+    },
+    "grader_v2.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v2.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advice provided is realistic and honest, as it clearly states that the student does not meet the eligibility cutoff for admission to NUST. It also provides constructive feedback by suggesting areas for improvement, specifically enhancing FSC and NET scores, which are relevant to the merit formula. The tone is professional and empathetic, using natural language to convey the message. The only reason for not giving a perfect score is that the advice could be more detailed in terms of specific steps the student could take to improve their scores, but overall, it is well-structured and helpful. The advisor avoids robotic phrasing, instead using natural sentences to convey the information, which adds to the overall quality of the advice.",
+      "advice_evaluated": "Although your calculated merit score of 49.25% is a good effort, unfortunately, you do not meet the eligibility cutoff for admission to NUST at this time. To improve your chances, consider focusing on enhancing your FSC and NET scores, as these are weighted at 25% and 75% respectively in the merit formula. With a strong performance in these areas, you may be able to increase your merit score and become a more competitive candidate in the future."
+    }
+  },
+  "ts_005": {
+    "grader_v1.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v1.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advisor's advice is realistic because it acknowledges the student's eligibility for NUST while also highlighting areas for improvement, specifically the NET score, which has a significant weightage in the merit score calculation. The advice is helpful as it provides constructive feedback and actionable steps for the student to enhance their competitiveness. However, the realism score is not a perfect 10 because the advice does not mention the missing matric and MD/ECAT scores, which could be important for a comprehensive evaluation. The helpfulness score is also not a perfect 10 because the advice could be more detailed in terms of specific strategies for improving the NET score.",
+      "advice_evaluated": "You have met the eligibility criteria for admission to NUST, which is a significant achievement. Your calculated merit score of 50.38% indicates that while you have a good foundation, there may be areas where you can improve to increase your competitiveness. Given that your merit score is calculated based on your FSC marks and NET results, with a weightage of 25% and 75% respectively, focusing on improving your NET score could substantially impact your overall merit score. Consider revisiting your preparation strategy for the NET, as this could be a key factor in enhancing your score. Nonetheless, with an eligibility status that clears the way for your admission, you should feel encouraged to proceed with your application, and we look forward to guiding you through the next steps."
+    },
+    "grader_v2.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v2.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advice provided is realistic and helpful, as it accurately reflects the student's eligibility status and offers constructive suggestions for improvement. The advisor naturally discusses the student's merit score and its components, providing a clear understanding of the factors influencing the score. The tone is professional and empathetic, encouraging the student to proceed with their application while also highlighting areas for potential improvement. The language used is natural and free of robotic phrasing, making the advice feel personalized and supportive. The only reason for not scoring a perfect 10 is that the advice could potentially benefit from more specific examples or resources for improving the NET score, but overall, it provides a solid foundation for the student's next steps.",
+      "advice_evaluated": "You have met the eligibility criteria for admission to NUST, which is a significant achievement. Your calculated merit score of 50.38% indicates that while you have a good foundation, there may be areas where you can improve to increase your competitiveness. Given that your merit score is calculated based on your FSC marks and NET results, with a weightage of 25% and 75% respectively, focusing on improving your NET score could substantially impact your overall merit score. Consider revisiting your preparation strategy for the NET, as this could be a key factor in enhancing your score. Nonetheless, with an eligibility status that clears you for admission, you should feel encouraged to proceed with your application, and it's worth exploring the various programs NUST has to offer."
+    }
+  },
+  "ts_006": {
+    "grader_v1.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v1.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advisor's advice is realistic because it accurately reflects the student's ineligibility based on the provided merit score and acknowledges the weight of different exams in the merit formula. The advice is also helpful as it provides constructive suggestions for improvement, such as retaking the MD-CAT exam and reviewing past academic performance. However, the realism score is not a perfect 10 because the advice could further specify the minimum merit score required by King Edward Medical University for eligibility. The helpfulness score is also not a perfect 10 because the advice could offer more detailed guidance on how to enhance the application and prepare for the retake.",
+      "advice_evaluated": "Although your calculated merit score of 26.14% is a good starting point, unfortunately, you do not meet the eligibility criteria for admission to King Edward Medical University at this time. To improve your chances, consider retaking the MD-CAT exam to increase your score, as it holds significant weight in the merit formula, with 50% of the total score. Additionally, reviewing your past academic performance in matric and FSC, which account for 10% and 40% of the merit score respectively, may help identify areas for improvement. Keep working towards your goal, and don't hesitate to reach out for guidance on how to enhance your application."
+    },
+    "grader_v2.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v2.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advice provided is realistic and honest, as it clearly states the student's ineligibility for admission due to not meeting the criteria. It also offers constructive suggestions for improvement, such as retaking the MD-CAT exam and reviewing past academic performance. The tone is empathetic and encouraging, providing a balanced view of the student's situation. The language used is natural and professional, without any robotic phrasing, which contributes to the high scores. The only reason for not scoring a perfect 10 is that the advice could potentially be more detailed in terms of specific resources or strategies for improvement, but overall, it provides a solid foundation for the student's next steps.",
+      "advice_evaluated": "Although your calculated merit score of 26.14% is a good starting point, unfortunately, you do not meet the eligibility criteria for admission to King Edward Medical University at this time. To improve your chances, consider retaking the MD-CAT exam, as it holds significant weight in the merit formula, with 50% of your score being determined by this exam. Additionally, reviewing your past academic performance in matric and FSC, which account for 10% and 40% of your merit score respectively, may help you identify areas for improvement. Keep working towards your goal, and don't hesitate to reach out for guidance on how to enhance your application for future admissions."
+    }
+  },
+  "ts_007": {
+    "grader_v1.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v1.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advisor's advice is realistic because it accurately reflects the student's eligibility status and provides a clear understanding of how their NET score significantly contributed to their merit score. The advice is also helpful as it encourages the student to proceed with the application process, highlighting their strengths, and offers positive reinforcement. However, the realism score is not a perfect 10 because the advice could have included more specific details about the competition for NUST admissions or potential challenges the student might face, despite being eligible. Similarly, the helpfulness score is not a 10 because the advice, while encouraging, does not provide detailed, actionable steps for the application process or suggestions for further improvement.",
+      "advice_evaluated": "You have met the eligibility criteria and your calculated merit score of 81.36% is quite impressive, indicating a strong performance in your academic journey so far. Given your profile and the merit formula used, with a significant weightage on your NET score, your achievement of 80 in the NET exam has been a crucial factor in your merit score. As you are eligible for admission to NUST, we encourage you to proceed with the application process, highlighting your strengths and the efforts that led to your commendable merit score. Keep up the good work and we wish you the best of luck in your future academic endeavors."
+    },
+    "grader_v2.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v2.md",
+      "realism_score": 9,
+      "helpfulness_score": 9,
+      "reasoning": "The advice provided is realistic and helpful, as it accurately reflects the student's eligibility status and merit score. The advisor breaks down the components of the merit score, explaining how different factors contributed to the overall score, which demonstrates a clear understanding of the admission process. The tone is natural, professional, and empathetic, offering constructive guidance and encouragement for the next steps. The advisor avoids robotic phrasing, instead using natural language to convey the information, such as 'you have a strong chance of securing a spot' and 'your hard work has paid off.' The only reason for not giving a perfect score is that the advice could be slightly more detailed in terms of specific next steps or additional requirements for the admission process at NUST.",
+      "advice_evaluated": "You are eligible for admission, and with your calculated merit score of 81.36%, you have a strong chance of securing a spot at NUST. Your performance in the NET, which accounts for 75% of the merit formula, has significantly contributed to your overall score. To further improve your chances, it's essential to focus on any additional requirements or interviews that may be part of the admission process. Keep in mind that your FSC marks, which make up 25% of the formula, have also played a role in your merit score. Overall, your hard work has paid off, and you should be proud of your achievement. Now, it's crucial to stay confident and prepared for the next steps in the admission process."
+    }
+  },
+  "ts_010": {
+    "grader_v1.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v1.md",
+      "realism_score": 10,
+      "helpfulness_score": 10,
+      "reasoning": "The advice accurately reflects the student's exceptional academic performance, with a perfect merit score of 100.0% and eligibility for admission to King Edward Medical University. The advisor's assessment of the student's marks and test scores is correct, and the tone is both encouraging and realistic. The advice provides a positive and motivational message, acknowledging the student's hard work and dedication, while also encouraging them to continue striving for excellence in their future endeavors.",
+      "advice_evaluated": "Congratulations, you have achieved a perfect calculated merit score of 100.0%, which is a testament to your exceptional academic performance. With your outstanding marks in matric and FSC, and a flawless MD-CAT score, you have met the eligibility criteria and are eligible for admission to King Edward Medical University. Your hard work and dedication have truly paid off, and we encourage you to continue striving for excellence as you pursue your academic and professional goals."
+    },
+    "grader_v2.md": {
+      "pipeline_version": "v3",
+      "grader_prompt_version": "grader_v2.md",
+      "realism_score": 10,
+      "helpfulness_score": 10,
+      "reasoning": "The advice provided is both realistic and helpful. It accurately reflects the student's eligibility status and merit score, and offers constructive encouragement for the next steps in the application process. The tone is professional, empathetic, and natural, without any robotic phrasing or direct mirroring of raw data fields. The advisor's use of phrases such as 'Congratulations' and 'exceptional academic performance' demonstrates a human touch and provides a positive and supportive message to the student.",
+      "advice_evaluated": "Congratulations, you have achieved a perfect calculated merit score of 100.0%, which is a testament to your exceptional academic performance. With your outstanding marks in matric and FSC, and a flawless MD CAT score, you have demonstrated a strong foundation for success in medical studies. You are eligible for admission to King Edward Medical University, and we encourage you to proceed with the application process, as your academic achievements make you a highly competitive candidate."
+    }
+  }
+}

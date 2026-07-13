@@ -1,0 +1,182 @@
+{
+  "garbled_nonsense": {
+    "input": "alkjfdskfjhasdkjfh",
+    "output": {
+      "marks": {
+        "matric": {
+          "obtained": null,
+          "total": null
+        },
+        "fsc": {
+          "obtained": null,
+          "total": null
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        },
+        "nu_test": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "alkjfdskfjhasdkjfh"
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "numbers_no_context": {
+    "input": "970 1010 185",
+    "output": {
+      "marks": {
+        "matric": {
+          "obtained": 970,
+          "total": 1010
+        },
+        "fsc": {
+          "obtained": 185,
+          "total": null
+        }
+      },
+      "university_raw": null
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "conflicting_universities": {
+    "input": "I want to apply to KEMU. My FSC is 1000 and Matric is 950. Also I want to apply to NUST where my FSC is 980 and Matric is 940, and to UET with FSC 900.",
+    "output": {
+      "marks": {
+        "matric": {
+          "obtained": 950,
+          "total": 1000
+        },
+        "fsc": {
+          "obtained": 980,
+          "total": 1000
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        },
+        "nu_test": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "KEMU, NUST, UET"
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "mixed_urdu_english": {
+    "input": "Mera FSC me 980 marks hain aur matric me 1010. MDCAT nahi diya. KEMU me apply karna chahta hu.",
+    "output": {
+      "marks": {
+        "matric": {
+          "obtained": 1010,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 980,
+          "total": null
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        },
+        "nu_test": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "KEMU"
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "impossible_overflow_values": {
+    "input": "I got 5000 in matric, 4500 in FSC. I want to apply to King Edward.",
+    "output": {
+      "marks": {
+        "matric": {
+          "obtained": 5000,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 4500,
+          "total": null
+        }
+      },
+      "university_raw": "King Edward"
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "empty_whitespace": {
+    "input": "   ",
+    "output": {},
+    "errors": [
+      "Reader failed to parse LLM JSON output: Expecting value: line 1 column 1 (char 0). Raw Output: ```json\n{\n  \"marks\": {\n    \"matric\": {\n      \"obtained\": null,\n      \"total\": null\n    },\n    \"fsc\": {\n      \"obtained\": null,\n      \"total\": null\n    },\n    \"mdcat\": {\n      \"obtained\": null,\n      \"total\": null\n    },\n    \"ecat\": {\n      \"obtained\": null,\n      \"total\": null\n    },\n    \"net\": {\n      \"obtained\": null,\n      \"total\": null\n    },\n    \"nu_test\": {\n      \"obtained\": null,\n      \"total\": null\n    }\n  },\n  \"university_raw\": \"\"\n}\n```"
+    ],
+    "crashed": false
+  },
+  "contradictory_same_subject": {
+    "input": "I got 950 in FSC but my FSC score is actually 920. KEMU is the university.",
+    "output": {
+      "marks": {
+        "matric": {
+          "obtained": null,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 950,
+          "total": 920
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        },
+        "nu_test": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "KEMU"
+    },
+    "errors": [],
+    "crashed": false
+  }
+}

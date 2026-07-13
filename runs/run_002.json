@@ -1,0 +1,16 @@
+{
+  "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+  "state": {
+    "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+    "student_profile": {},
+    "formula": {},
+    "merit_score": 74.36,
+    "eligibility": true,
+    "advice": "Your merit score is competitive, and you have a good chance of getting into NUST's computer science program. However, the competition is high, so it's essential to ensure your documents are in order and you meet all the requirements. Keep a positive attitude and be prepared for the next steps in the admission process.",
+    "checked": false,
+    "grader_score": {},
+    "errors": []
+  },
+  "timestamp": "2026-07-11T06:35:29.065166Z",
+  "prompt_version": "single_agent_v1.md"
+}

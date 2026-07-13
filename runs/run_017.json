@@ -1,0 +1,114 @@
+{
+  "student_input": "Hello, I got 950 marks in Matric, 880 in FSc and my ECAT score is 230 out of 400. Can I get admission in UET Lahore?",
+  "state": {
+    "student_input": "Hello, I got 950 marks in Matric, 880 in FSc and my ECAT score is 230 out of 400. Can I get admission in UET Lahore?",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 950,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 880,
+          "total": null
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": 230,
+          "total": 400
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "UET Lahore"
+    },
+    "formula": {
+      "matric": 0.25,
+      "fsc": 0.45,
+      "ecat": 0.3
+    },
+    "merit_score": 74.84,
+    "eligibility": true,
+    "advice": "Congratulations on having an eligibility status of true and a merit score percentage of 74.84. Given your profile, with 950 marks in matric and 880 marks in FSC, and 230 marks in ECAT out of 400, you have a strong foundation. The merit formula used, with 25% weightage on matric, 45% on FSC, and 30% on ECAT, suggests that your FSC marks have significantly contributed to your merit score. To further improve, consider focusing on your ECAT performance, as it has the potential to significantly boost your merit score. Since you are eligible and have a respectable merit score, you have a good chance of getting into UET Lahore. Keep a close eye on the admission deadlines and requirements, and prepare to submit a strong application.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1560,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 950,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 880,
+              "total": null
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": 230,
+              "total": 400
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "UET Lahore"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "matric": 0.25,
+            "fsc": 0.45,
+            "ecat": 0.3
+          },
+          "formula_display": "25% Matric + 45% FSc + 30% ECAT",
+          "found": true
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 74.84,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1954,
+        "output": {
+          "advice": "Congratulations on having an eligibility status of true and a merit score percentage of 74.84. Given your profile, with 950 marks in matric and 880 marks in FSC, and 230 marks in ECAT out of 400, you have a strong foundation. The merit formula used, with 25% weightage on matric, 45% on FSC, and 30% on ECAT, suggests that your FSC marks have significantly contributed to your merit score. To further improve, consider focusing on your ECAT performance, as it has the potential to significantly boost your merit score. Since you are eligible and have a respectable merit score, you have a good chance of getting into UET Lahore. Keep a close eye on the admission deadlines and requirements, and prepare to submit a strong application."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1469,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It provides a clear analysis of the student's profile, identifies areas for improvement, and offers a positive yet cautious outlook on their chances of getting into UET Lahore, considering their eligibility status and merit score."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It provides a clear analysis of the student's profile, identifies areas for improvement, and offers a positive yet cautious outlook on their chances of getting into UET Lahore, considering their eligibility status and merit score."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3"
+  },
+  "timestamp": "2026-07-11T06:51:51.839707Z",
+  "pipeline_version": "v3"
+}

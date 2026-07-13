@@ -1,0 +1,24 @@
+window.DASHBOARD_DATA = {
+  "total_runs": 131,
+  "cache_hits": 18,
+  "cache_hit_rate": 13.7,
+  "rewrites": 11,
+  "rewrite_rate": 13.6,
+  "runs_by_stage": {
+    "complete": 81,
+    "failed_at_reader": 23,
+    "failed_at_formula_picker": 8,
+    "failed_at_calculator": 11,
+    "failed_at_advisor": 0,
+    "failed_at_checker": 1,
+    "unknown": 7
+  },
+  "test_accuracy": {
+    "students_tested": 12,
+    "passed": 12,
+    "failed": 0,
+    "errors": 0,
+    "accuracy": 100.0
+  },
+  "last_updated": "2026-07-13T10:42:10+05:00"
+};

@@ -1,0 +1,42 @@
+{
+  "ts_001": {
+    "realism_score": 9,
+    "helpfulness_score": 9,
+    "reasoning": "The advice accurately cites the 90.7% score and KEMU name. Honest, realistic, and highly encouraging."
+  },
+  "ts_002": {
+    "realism_score": 9,
+    "helpfulness_score": 9,
+    "reasoning": "The advice correctly lists NUST, the 25/75 weight, and the student's NET score of 142/200."
+  },
+  "ts_003": {
+    "realism_score": 9,
+    "helpfulness_score": 9,
+    "reasoning": "The robotic phrasing is fully resolved. It now writes natural human sentences: 'You are eligible for admission... With your calculated merit score of 74.84%...'."
+  },
+  "ts_004": {
+    "realism_score": 9,
+    "helpfulness_score": 8,
+    "reasoning": "Accurately reports ineligibility and score of 49.25%. Correctly identifies that student is just below cutoff."
+  },
+  "ts_005": {
+    "realism_score": 9,
+    "helpfulness_score": 8,
+    "reasoning": "Accurately reports score of 50.38% and confirms eligibility. Encouraging feedback."
+  },
+  "ts_006": {
+    "realism_score": 8,
+    "helpfulness_score": 8,
+    "reasoning": "Honest ineligibility feedback for extremely low marks (26.14% merit). Excellent actionable step to retake MDCAT."
+  },
+  "ts_007": {
+    "realism_score": 9,
+    "helpfulness_score": 9,
+    "reasoning": "Successfully matches standard totals and computes 81.36% merit score. Actionable advice."
+  },
+  "ts_010": {
+    "realism_score": 9,
+    "helpfulness_score": 9,
+    "reasoning": "Awkward boolean reference has been resolved. Now writes natural phrasing: 'Given your eligibility status, you should confidently apply...'."
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, NET: 80. I also got 80 in Chemistry. I want to apply to NUST.",
+  "state": {
+    "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, NET: 80. I also got 80 in Chemistry. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 980,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 940,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 80,
+          "total": null
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 81.36,
+    "eligibility": true,
+    "advice": "You have met the eligibility criteria and your calculated merit score of 81.36% is quite impressive, indicating a strong performance in your academic journey so far. Given your marks and the merit formula used, with a significant weightage on your NET score, your achievement of 80 in the NET has significantly contributed to your high merit score. As you are eligible for admission to NUST, we encourage you to proceed with the application process, highlighting your strengths and the efforts that led to your outstanding performance. Keep up the good work and we wish you the best of luck in your future academic endeavors.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 3290,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 980,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 940,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 80,
+              "total": null
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 81.36,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 3601,
+        "output": {
+          "advice": "You have met the eligibility criteria and your calculated merit score of 81.36% is quite impressive, indicating a strong performance in your academic journey so far. Given your marks and the merit formula used, with a significant weightage on your NET score, your achievement of 80 in the NET has significantly contributed to your high merit score. As you are eligible for admission to NUST, we encourage you to proceed with the application process, highlighting your strengths and the efforts that led to your outstanding performance. Keep up the good work and we wish you the best of luck in your future academic endeavors."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 3405,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given, as it accurately reflects the student's strong performance and eligibility for admission to NUST, and provides encouragement and guidance for the next steps."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given, as it accurately reflects the student's strong performance and eligibility for admission to NUST, and provides encouragement and guidance for the next steps."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:14:55.807133Z",
+  "pipeline_version": "v3"
+}

@@ -1,0 +1,114 @@
+{
+  "student_input": "My FSc marks are 550/1100 and NET is 98/200. I want to apply to NUST.",
+  "state": {
+    "student_input": "My FSc marks are 550/1100 and NET is 98/200. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": null,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 550,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 98,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 49.25,
+    "eligibility": false,
+    "advice": "Although your calculated merit score of 49.25% is a good effort, unfortunately, you do not meet the eligibility criteria for admission to NUST at this time. To improve your chances, consider focusing on enhancing your FSC and NET scores, as they are crucial components of the merit formula, with weights of 25% and 75% respectively. Given your NET score of 98 out of 200, exploring ways to improve this score could significantly impact your overall merit score. Keep working hard and stay committed to your goals, and you may find yourself better positioned for admission in the future.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 2213,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": null,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 550,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 98,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 49.25,
+          "eligibility": false,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 2187,
+        "output": {
+          "advice": "Although your calculated merit score of 49.25% is a good effort, unfortunately, you do not meet the eligibility criteria for admission to NUST at this time. To improve your chances, consider focusing on enhancing your FSC and NET scores, as they are crucial components of the merit formula, with weights of 25% and 75% respectively. Given your NET score of 98 out of 200, exploring ways to improve this score could significantly impact your overall merit score. Keep working hard and stay committed to your goals, and you may find yourself better positioned for admission in the future."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1984,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly states that the student does not meet the eligibility criteria, provides specific areas for improvement, and offers constructive guidance for future admission attempts."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly states that the student does not meet the eligibility criteria, provides specific areas for improvement, and offers constructive guidance for future admission attempts."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:13:49.649751Z",
+  "pipeline_version": "v3"
+}

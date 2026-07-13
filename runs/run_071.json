@@ -1,0 +1,127 @@
+{
+  "student_input": "DELIBERATE_REJECTION: My marks are Matric: 980/1100, FSc: 940/1100, NET: 142/200. I want to apply to NUST.",
+  "state": {
+    "student_input": "DELIBERATE_REJECTION: My marks are Matric: 980/1100, FSc: 940/1100, NET: 142/200. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 980,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 940,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 142,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 74.61,
+    "eligibility": true,
+    "advice": "With your calculated merit score of 74.61%, you have a competitive standing for admission, and fortunately, you have met the eligibility criteria. However, it's essential to understand that admission to a prestigious institution like NUST can be highly competitive. While your marks, including your matric and FSC scores, are notable, and your NET score of 142 out of 200 is a good addition to your profile, it's crucial to remain cautious and prepared for the possibility that the final admission decisions may vary based on the overall applicant pool. Therefore, it's advisable to stay optimistic yet grounded and consider all available options for your future academic pursuits.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1869,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 980,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 940,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 142,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 74.61,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1672,
+        "output": {
+          "advice": "Great news! You are fully eligible and are a highly competitive candidate for admission to King Edward Medical University with your marks. You will easily get in!"
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1478,
+        "output": {
+          "approved": false,
+          "reason": "The advice is overly optimistic and not entirely realistic. A merit score of 74.61 is competitive but not guaranteed for admission to a prestigious institution like King Edward Medical University, where competition can be very high. The advice should be more nuanced and cautionary."
+        }
+      },
+      "advisor_attempt_2": {
+        "duration_ms": 1623,
+        "output": {
+          "advice": "With your calculated merit score of 74.61%, you have a competitive standing for admission, and fortunately, you have met the eligibility criteria. However, it's essential to understand that admission to a prestigious institution like NUST can be highly competitive. While your marks, including your matric and FSC scores, are notable, and your NET score of 142 out of 200 is a good addition to your profile, it's crucial to remain cautious and prepared for the possibility that the final admission decisions may vary based on the overall applicant pool. Therefore, it's advisable to stay optimistic yet grounded and consider all available options for your future academic pursuits."
+        }
+      },
+      "checker_attempt_2": {
+        "duration_ms": 1033,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given, as it acknowledges the student's competitive standing while also emphasizing the competitive nature of the admission process and encouraging preparedness for varying outcomes."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given, as it acknowledges the student's competitive standing while also emphasizing the competitive nature of the admission process and encouraging preparedness for varying outcomes."
+    },
+    "rewrite_count": 1,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:20:56.775282Z",
+  "pipeline_version": "v3"
+}

@@ -1,0 +1,100 @@
+{
+  "student_input": "My Matric is 950/1100, FSc is 880/1100, MDCAT is 185. I want to apply to NUST.",
+  "state": {
+    "student_input": "My Matric is 950/1100, FSc is 880/1100, MDCAT is 185. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 950,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 880,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": 185,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 0.0,
+    "eligibility": false,
+    "advice": "",
+    "checked": false,
+    "grader_score": {},
+    "errors": [
+      "missing required mark: net"
+    ],
+    "stage": "failed_at_calculator",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1777,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 950,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 880,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": 185,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": null,
+          "eligibility": false,
+          "error": "missing required mark: net"
+        }
+      }
+    },
+    "checker_verdict": {},
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:16:01.395168Z",
+  "pipeline_version": "v3"
+}

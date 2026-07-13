@@ -1,0 +1,16 @@
+{
+  "student_input": "I have 1100/1100 in Matric, 1100/1100 in FSc, and 200/200 in MDCAT. I want to apply to King Edward Medical University.",
+  "state": {
+    "student_input": "I have 1100/1100 in Matric, 1100/1100 in FSc, and 200/200 in MDCAT. I want to apply to King Edward Medical University.",
+    "student_profile": {},
+    "formula": {},
+    "merit_score": 98.5,
+    "eligibility": true,
+    "advice": "Congratulations on your outstanding academic performance. With a merit score of 98.5, you have a strong chance of getting accepted into King Edward Medical University. Ensure you submit your application well before the deadline and prepare for any potential interviews. Your hard work has paid off, and you should be proud of your achievements. Best of luck with your application.",
+    "checked": false,
+    "grader_score": {},
+    "errors": []
+  },
+  "timestamp": "2026-07-11T06:35:33.605012Z",
+  "prompt_version": "single_agent_v1.md"
+}

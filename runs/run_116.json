@@ -1,0 +1,112 @@
+{
+  "student_input": "I got 1020 in Matric, 990 in FSc, but I couldn't attend the MDCAT exam. I want to apply to King Edward Medical University.",
+  "state": {
+    "student_input": "I got 1020 in Matric, 990 in FSc, but I couldn't attend the MDCAT exam. I want to apply to King Edward Medical University.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 1020,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 990,
+          "total": null
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        },
+        "nu_test": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "King Edward Medical University"
+    },
+    "formula": {
+      "matric": 0.1,
+      "fsc": 0.4,
+      "mdcat": 0.5
+    },
+    "merit_score": 0.0,
+    "eligibility": false,
+    "advice": "",
+    "checked": false,
+    "grader_score": {},
+    "errors": [
+      "missing required mark: mdcat"
+    ],
+    "stage": "failed_at_calculator",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 3522,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 1020,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 990,
+              "total": null
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            },
+            "nu_test": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "King Edward Medical University"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "matric": 0.1,
+            "fsc": 0.4,
+            "mdcat": 0.5
+          },
+          "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+          "found": true,
+          "matched_university": "King Edward Medical University"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": null,
+          "eligibility": false,
+          "error": "missing required mark: mdcat"
+        }
+      }
+    },
+    "checker_verdict": {},
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "King Edward Medical University",
+    "cache_hit": false,
+    "run_file": "run_116.json"
+  },
+  "timestamp": "2026-07-11T07:35:21.567584Z",
+  "pipeline_version": "v3"
+}

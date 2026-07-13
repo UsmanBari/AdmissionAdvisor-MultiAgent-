@@ -1,0 +1,54 @@
+{
+  "salesy_but_correct": {
+    "params": {
+      "merit_score": 90.7,
+      "eligibility": true,
+      "advice": "OMG! You are a superstar! You are 100% eligible for King Edward Medical University! Go celebrate! Your scores are absolutely phenomenal!"
+    },
+    "output": {
+      "approved": false,
+      "reason": "The advice is overly enthusiastic and unrealistic. A merit score of 90.7 is high, but not necessarily 'phenomenal' or a guarantee of admission. The advice should be more balanced and realistic."
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "program_mismatch_low_merit": {
+    "params": {
+      "merit_score": 55.0,
+      "eligibility": true,
+      "advice": "You have met the eligibility criteria for admission. With a merit score of 55.00%, you are eligible and should apply for King Edward Medical University's open merit seats. We highly recommend you go for KEMU as you are guaranteed to have a competitive chance."
+    },
+    "output": {
+      "approved": false,
+      "reason": "The advice is overly optimistic and guarantees a competitive chance, which may not be realistic given the merit score of 55.00%. A more balanced and realistic advice would be to encourage the student to apply and highlight the university's reputation and opportunities, without making unsubstantiated claims about their chances of admission."
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "low_effort_advice": {
+    "params": {
+      "merit_score": 75.0,
+      "eligibility": true,
+      "advice": "You're eligible. Good luck."
+    },
+    "output": {
+      "approved": false,
+      "reason": "The advice is too brief and does not provide any meaningful guidance or suggestions for improvement, given the merit score of 75.0."
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "cutoff_boundary_false_confidence": {
+    "params": {
+      "merit_score": 50.1,
+      "eligibility": true,
+      "advice": "Congratulations! You have scored 50.10% merit. You are fully eligible for NUST and you have an excellent, guaranteed chance of being selected for their computer science program."
+    },
+    "output": {
+      "approved": false,
+      "reason": "The advice is overly optimistic and guarantees selection, which is not realistic for a merit score of 50.1. NUST's admission process is competitive, and a merit score of 50.1 does not guarantee selection for a highly competitive program like computer science."
+    },
+    "errors": [],
+    "crashed": false
+  }
+}

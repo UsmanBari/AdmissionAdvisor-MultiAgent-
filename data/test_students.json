@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ts_001",
+    "description": "Normal KEMU applicant",
+    "raw_input": "I got 1010/1100 in Matric, 970/1100 in FSc and 185 in MDCAT. I want to apply to King Edward Medical University.",
+    "expected": {
+      "stage": "complete",
+      "university_matched": "King Edward Medical University",
+      "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+      "merit_score": 90.70,
+      "eligibility": true
+    }
+  },
+  {
+    "id": "ts_002",
+    "description": "Normal NUST applicant",
+    "raw_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+    "expected": {
+      "stage": "complete",
+      "university_matched": "NUST",
+      "formula_display": "25% FSc + 75% NET",
+      "merit_score": 74.61,
+      "eligibility": true
+    }
+  },
+  {
+    "id": "ts_003",
+    "description": "Normal UET Lahore applicant",
+    "raw_input": "Hello, I got 950 marks in Matric, 880 in FSc and my ECAT score is 230 out of 400. Can I get admission in UET Lahore?",
+    "expected": {
+      "stage": "complete",
+      "university_matched": "UET Lahore",
+      "formula_display": "25% Matric + 45% FSc + 30% ECAT",
+      "merit_score": 74.84,
+      "eligibility": true
+    }
+  },
+  {
+    "id": "ts_004",
+    "description": "NUST applicant just below the 50% cutoff",
+    "raw_input": "My FSc marks are 550/1100 and NET is 98/200. I want to apply to NUST.",
+    "expected": {
+      "stage": "complete",
+      "university_matched": "NUST",
+      "formula_display": "25% FSc + 75% NET",
+      "merit_score": 49.25,
+      "eligibility": false
+    }
+  },
+  {
+    "id": "ts_005",
+    "description": "NUST applicant just above the 50% cutoff",
+    "raw_input": "My FSc marks are 550/1100 and NET is 101/200. I want to apply to NUST.",
+    "expected": {
+      "stage": "complete",
+      "university_matched": "NUST",
+      "formula_display": "25% FSc + 75% NET",
+      "merit_score": 50.38,
+      "eligibility": true
+    }
+  },
+  {
+    "id": "ts_006",
+    "description": "Clearly ineligible KEMU applicant",
+    "raw_input": "I got 450/1100 in Matric, 400/1100 in FSc, and 30/200 in MDCAT. Can I get admission in King Edward Medical University?",
+    "expected": {
+      "stage": "complete",
+      "university_matched": "King Edward Medical University",
+      "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+      "merit_score": 26.14,
+      "eligibility": false
+    }
+  },
+  {
+    "id": "ts_007",
+    "description": "NUST applicant with standard totals fallback and ignored extra subject",
+    "raw_input": "My marks are Matric: 980/1100, FSc: 940/1100, NET: 80. I also got 80 in Chemistry. I want to apply to NUST.",
+    "expected": {
+      "stage": "complete",
+      "university_matched": "NUST",
+      "formula_display": "25% FSc + 75% NET",
+      "merit_score": 81.36,
+      "eligibility": true
+    }
+  },
+  {
+    "id": "ts_008",
+    "description": "Applicant applying to an unmatched university",
+    "raw_input": "I scored 850 in Matric and 810 in FSc. I didn't take any entrance test. I want to apply to Greenwood Institute of Science and Technology for BS IT.",
+    "expected": {
+      "stage": "failed_at_formula_picker",
+      "university_matched": null,
+      "formula_display": null,
+      "merit_score": null,
+      "eligibility": null
+    }
+  },
+  {
+    "id": "ts_009",
+    "description": "KEMU applicant missing required entry exam score",
+    "raw_input": "I got 1020 in Matric, 990 in FSc, but I couldn't attend the MDCAT exam. I want to apply to King Edward Medical University.",
+    "expected": {
+      "stage": "failed_at_calculator",
+      "university_matched": "King Edward Medical University",
+      "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+      "merit_score": null,
+      "eligibility": null
+    }
+  },
+  {
+    "id": "ts_010",
+    "description": "Perfect scores KEMU applicant",
+    "raw_input": "I have 1100/1100 in Matric, 1100/1100 in FSc, and 200/200 in MDCAT. I want to apply to King Edward Medical University.",
+    "expected": {
+      "stage": "complete",
+      "university_matched": "King Edward Medical University",
+      "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+      "merit_score": 100.00,
+      "eligibility": true
+    }
+  },
+  {
+    "id": "ts_011",
+    "description": "Normal FAST NUCES applicant",
+    "raw_input": "I got 920/1100 in FSc and scored 75 in my FAST Entry Test (NU Test). I want to apply to FAST Lahore.",
+    "expected": {
+      "stage": "complete",
+      "university_matched": "FAST NUCES",
+      "formula_display": "50% FSc + 50% NU Test",
+      "merit_score": 79.32,
+      "eligibility": true
+    }
+  },
+  {
+    "id": "ts_012",
+    "description": "FAST NUCES applicant missing NU Test score",
+    "raw_input": "I have 950 in Matric and 890 in FSc. I want to apply to FAST-NUCES but I did not take the NU Test.",
+    "expected": {
+      "stage": "failed_at_calculator",
+      "university_matched": "FAST NUCES",
+      "formula_display": "50% FSc + 50% NU Test",
+      "merit_score": null,
+      "eligibility": null
+    }
+  }
+]

@@ -1,0 +1,13 @@
+# Credentials
+.env
+
+# Telemetry logs and cached metrics
+logs/
+
+# Python compiled cache
+__pycache__/
+*.pyc
+
+# Preparation / Interview files
+PROJECT_DEFENSE.md
+reports/cross_exam_answer.md

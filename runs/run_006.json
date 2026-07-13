@@ -1,0 +1,16 @@
+{
+  "student_input": "I got 450/1100 in Matric, 400/1100 in FSc, and 30/200 in MDCAT. Can I get admission in King Edward Medical University?",
+  "state": {
+    "student_input": "I got 450/1100 in Matric, 400/1100 in FSc, and 30/200 in MDCAT. Can I get admission in King Edward Medical University?",
+    "student_profile": {},
+    "formula": {},
+    "merit_score": 73.18,
+    "eligibility": false,
+    "advice": "Your aggregate score is below the typical cutoff for King Edward Medical University. Consider improving your MDCAT score or exploring other medical institutions with relatively lower merit scores.",
+    "checked": false,
+    "grader_score": {},
+    "errors": []
+  },
+  "timestamp": "2026-07-11T06:35:35.213776Z",
+  "prompt_version": "single_agent_v1.md"
+}

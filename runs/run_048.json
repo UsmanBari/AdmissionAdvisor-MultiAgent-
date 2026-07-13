@@ -1,0 +1,114 @@
+{
+  "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+  "state": {
+    "student_input": "My marks are Matric: 980/1100, FSc: 940/1100, and NET (NUST Entry Test): 142/200. I want to apply to NUST for computer science.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 980,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 940,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 142,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 74.61,
+    "eligibility": true,
+    "advice": "You are eligible for admission, which is a significant achievement. Your calculated merit score of 74.61% is competitive, considering your strong performance in the NET, where you scored 142 out of 200, and your FSC marks. Given the merit formula used, with a weightage of 25% for FSC and 75% for NET, your score indicates a good balance between these critical components. To further improve your chances, focus on any areas of weakness and prepare thoroughly for the next steps in the admission process. Keep in mind that meeting the eligibility criteria is just the first step, and a strong merit score like yours can make a significant difference in securing a spot at a prestigious institution like NUST.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1460,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 980,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 940,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 142,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 1,
+        "output": {
+          "merit_score": 74.61,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 2104,
+        "output": {
+          "advice": "You are eligible for admission, which is a significant achievement. Your calculated merit score of 74.61% is competitive, considering your strong performance in the NET, where you scored 142 out of 200, and your FSC marks. Given the merit formula used, with a weightage of 25% for FSC and 75% for NET, your score indicates a good balance between these critical components. To further improve your chances, focus on any areas of weakness and prepare thoroughly for the next steps in the admission process. Keep in mind that meeting the eligibility criteria is just the first step, and a strong merit score like yours can make a significant difference in securing a spot at a prestigious institution like NUST."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1523,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's eligibility and competitive merit score, provides context about the components that contributed to the score, and offers constructive guidance for further improvement."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's eligibility and competitive merit score, provides context about the components that contributed to the score, and offers constructive guidance for further improvement."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:13:14.225311Z",
+  "pipeline_version": "v3"
+}

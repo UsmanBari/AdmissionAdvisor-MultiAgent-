@@ -1,0 +1,72 @@
+{
+  "ambiguous_substring": {
+    "input": "Lahore",
+    "output": {
+      "formula": {
+        "matric": 0.25,
+        "fsc": 0.45,
+        "ecat": 0.3
+      },
+      "formula_display": "25% Matric + 45% FSc + 30% ECAT",
+      "found": true,
+      "matched_university": "UET Lahore"
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "empty_string": {
+    "input": "",
+    "output": {
+      "formula": {},
+      "formula_display": "",
+      "found": false,
+      "matched_university": null
+    },
+    "errors": [
+      "University '' could not be matched to any official university list."
+    ],
+    "crashed": false
+  },
+  "spacing_and_casing": {
+    "input": "   kEmU   ",
+    "output": {
+      "formula": {
+        "matric": 0.1,
+        "fsc": 0.4,
+        "mdcat": 0.5
+      },
+      "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+      "found": true,
+      "matched_university": "King Edward Medical University"
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "multiple_universities": {
+    "input": "KEMU or NUST",
+    "output": {
+      "formula": {
+        "fsc": 0.25,
+        "net": 0.75
+      },
+      "formula_display": "25% FSc + 75% NET",
+      "found": true,
+      "matched_university": "NUST"
+    },
+    "errors": [],
+    "crashed": false
+  },
+  "fictional_university": {
+    "input": "Hogwarts School of Witchcraft and Wizardry",
+    "output": {
+      "formula": {},
+      "formula_display": "",
+      "found": false,
+      "matched_university": null
+    },
+    "errors": [
+      "University 'Hogwarts School of Witchcraft and Wizardry' could not be matched to any official university list."
+    ],
+    "crashed": false
+  }
+}

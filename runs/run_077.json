@@ -1,0 +1,31 @@
+{
+  "student_input": "I got 450/1100 in Matric, 400/1100 in FSc, and 30/200 in MDCAT. Can I get admission in King Edward Medical University?",
+  "state": {
+    "student_input": "I got 450/1100 in Matric, 400/1100 in FSc, and 30/200 in MDCAT. Can I get admission in King Edward Medical University?",
+    "student_profile": {},
+    "formula": {},
+    "merit_score": 0.0,
+    "eligibility": false,
+    "advice": "",
+    "checked": false,
+    "grader_score": {},
+    "errors": [
+      "Reader LLM Service call failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01k22xzgzpehy9j36d81fg1bym` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99974, Requested 482. Please try again in 6m33.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    ],
+    "stage": "failed_at_reader",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 3894,
+        "output": {}
+      }
+    },
+    "checker_verdict": {},
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": null,
+    "cache_hit": false,
+    "run_file": "run_077.json"
+  },
+  "timestamp": "2026-07-11T07:27:05.842108Z",
+  "pipeline_version": "v3"
+}

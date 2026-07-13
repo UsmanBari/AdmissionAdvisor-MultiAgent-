@@ -1,0 +1,116 @@
+{
+  "student_input": "I got 450/1100 in Matric, 400/1100 in FSc, and 30/200 in MDCAT. Can I get admission in King Edward Medical University?",
+  "state": {
+    "student_input": "I got 450/1100 in Matric, 400/1100 in FSc, and 30/200 in MDCAT. Can I get admission in King Edward Medical University?",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 450,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 400,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": 30,
+          "total": 200
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "King Edward Medical University"
+    },
+    "formula": {
+      "matric": 0.1,
+      "fsc": 0.4,
+      "mdcat": 0.5
+    },
+    "merit_score": 26.14,
+    "eligibility": false,
+    "advice": "Although your calculated merit score of 26.14% is a good starting point, unfortunately, you do not meet the eligibility criteria for admission to King Edward Medical University at this time. To improve your chances, consider retaking the MD-CAT exam to increase your score, as it holds significant weight in the merit formula, with 50% of the total score. Additionally, reviewing your past academic performance in matric and FSC, which account for 10% and 40% of the merit score respectively, may help identify areas for improvement. Keep working towards your goal, and don't hesitate to reach out for guidance on how to enhance your application.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 3180,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 450,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 400,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": 30,
+              "total": 200
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "King Edward Medical University"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "matric": 0.1,
+            "fsc": 0.4,
+            "mdcat": 0.5
+          },
+          "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+          "found": true,
+          "matched_university": "King Edward Medical University"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 26.14,
+          "eligibility": false,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 3777,
+        "output": {
+          "advice": "Although your calculated merit score of 26.14% is a good starting point, unfortunately, you do not meet the eligibility criteria for admission to King Edward Medical University at this time. To improve your chances, consider retaking the MD-CAT exam to increase your score, as it holds significant weight in the merit formula, with 50% of the total score. Additionally, reviewing your past academic performance in matric and FSC, which account for 10% and 40% of the merit score respectively, may help identify areas for improvement. Keep working towards your goal, and don't hesitate to reach out for guidance on how to enhance your application."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 3726,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly states that the student does not meet the eligibility criteria, provides a specific reason (low merit score), and offers actionable suggestions for improvement (retaking the MD-CAT exam and reviewing past academic performance)."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly states that the student does not meet the eligibility criteria, provides a specific reason (low merit score), and offers actionable suggestions for improvement (retaking the MD-CAT exam and reviewing past academic performance)."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "King Edward Medical University"
+  },
+  "timestamp": "2026-07-11T07:14:35.078223Z",
+  "pipeline_version": "v3"
+}

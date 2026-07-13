@@ -1,0 +1,16 @@
+{
+  "student_input": "I scored 850 in Matric and 810 in FSc. I didn't take any entrance test. I want to apply to Greenwood Institute of Science and Technology for BS IT.",
+  "state": {
+    "student_input": "I scored 850 in Matric and 810 in FSc. I didn't take any entrance test. I want to apply to Greenwood Institute of Science and Technology for BS IT.",
+    "student_profile": {},
+    "formula": {},
+    "merit_score": 83.0,
+    "eligibility": false,
+    "advice": "You have a good academic record, but Greenwood Institute of Science and Technology requires an entrance test for BS IT admissions. Consider preparing for and taking the entrance test to increase your chances of getting accepted.",
+    "checked": false,
+    "grader_score": {},
+    "errors": []
+  },
+  "timestamp": "2026-07-11T06:35:31.901244Z",
+  "prompt_version": "single_agent_v1.md"
+}

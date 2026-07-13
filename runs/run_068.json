@@ -1,0 +1,116 @@
+{
+  "student_input": "I got nine hundred and fifty marks in matric and eight hundred and eighty in fsc. My entry test ECAT score is two hundred and thirty. I want to go to UET Lahore.",
+  "state": {
+    "student_input": "I got nine hundred and fifty marks in matric and eight hundred and eighty in fsc. My entry test ECAT score is two hundred and thirty. I want to go to UET Lahore.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 950,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 880,
+          "total": null
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": 230,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "UET Lahore"
+    },
+    "formula": {
+      "matric": 0.25,
+      "fsc": 0.45,
+      "ecat": 0.3
+    },
+    "merit_score": 74.84,
+    "eligibility": true,
+    "advice": "You are eligible for admission, which is a significant achievement. With your calculated merit score of 74.84%, you have demonstrated a strong academic foundation, particularly considering your marks in matric and FSC, as well as your performance in the ECAT with a score of 230. Given that the merit formula weighs your FSC marks at 45%, your score of 880 is a notable contribution to your overall merit score. To further enhance your application, it might be beneficial to review the specific requirements and opportunities available at UET Lahore, as you move forward in the admissions process.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1358,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 950,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 880,
+              "total": null
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": 230,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "UET Lahore"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 1,
+        "output": {
+          "formula": {
+            "matric": 0.25,
+            "fsc": 0.45,
+            "ecat": 0.3
+          },
+          "formula_display": "25% Matric + 45% FSc + 30% ECAT",
+          "found": true,
+          "matched_university": "UET Lahore"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 74.84,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 3921,
+        "output": {
+          "advice": "You are eligible for admission, which is a significant achievement. With your calculated merit score of 74.84%, you have demonstrated a strong academic foundation, particularly considering your marks in matric and FSC, as well as your performance in the ECAT with a score of 230. Given that the merit formula weighs your FSC marks at 45%, your score of 880 is a notable contribution to your overall merit score. To further enhance your application, it might be beneficial to review the specific requirements and opportunities available at UET Lahore, as you move forward in the admissions process."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 3636,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's eligibility, provides a positive assessment of their academic performance, and offers constructive guidance for further improvement and exploration of opportunities at UET Lahore."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's eligibility, provides a positive assessment of their academic performance, and offers constructive guidance for further improvement and exploration of opportunities at UET Lahore."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "UET Lahore"
+  },
+  "timestamp": "2026-07-11T07:15:59.610712Z",
+  "pipeline_version": "v3"
+}

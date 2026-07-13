@@ -1,0 +1,114 @@
+{
+  "student_input": "I got 450/1100 in Matric, 400/1100 in FSc, and 30/200 in MDCAT. Can I get admission in King Edward Medical University?",
+  "state": {
+    "student_input": "I got 450/1100 in Matric, 400/1100 in FSc, and 30/200 in MDCAT. Can I get admission in King Edward Medical University?",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 450,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 400,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": 30,
+          "total": 200
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "King Edward Medical University"
+    },
+    "formula": {
+      "matric": 0.1,
+      "fsc": 0.4,
+      "mdcat": 0.5
+    },
+    "merit_score": 26.14,
+    "eligibility": false,
+    "advice": "Although your current merit score of 26.14% falls short of the eligibility criteria, don't be discouraged. Focus on improving your scores, particularly in the MDCAT, which carries the most weight (50%) in the merit formula. With a score of 30 out of 200 in MDCAT, there's significant room for improvement. Consider retaking the MDCAT and preparing thoroughly to increase your chances of getting into King Edward Medical University. Additionally, review the eligibility criteria carefully and ensure you meet all the requirements. Stay motivated, work hard, and you can increase your merit score and become eligible for admission.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1198,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 450,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 400,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": 30,
+              "total": 200
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "King Edward Medical University"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "matric": 0.1,
+            "fsc": 0.4,
+            "mdcat": 0.5
+          },
+          "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+          "found": true
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 26.14,
+          "eligibility": false,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1576,
+        "output": {
+          "advice": "Although your current merit score of 26.14% falls short of the eligibility criteria, don't be discouraged. Focus on improving your scores, particularly in the MDCAT, which carries the most weight (50%) in the merit formula. With a score of 30 out of 200 in MDCAT, there's significant room for improvement. Consider retaking the MDCAT and preparing thoroughly to increase your chances of getting into King Edward Medical University. Additionally, review the eligibility criteria carefully and ensure you meet all the requirements. Stay motivated, work hard, and you can increase your merit score and become eligible for admission."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1260,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's current ineligibility, identifies areas for improvement, and provides actionable suggestions for increasing their merit score, which aligns with the provided merit score and eligibility status."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's current ineligibility, identifies areas for improvement, and provides actionable suggestions for increasing their merit score, which aligns with the provided merit score and eligibility status."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3"
+  },
+  "timestamp": "2026-07-11T06:52:02.954425Z",
+  "pipeline_version": "v3"
+}

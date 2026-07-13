@@ -1,0 +1,114 @@
+{
+  "student_input": "My FSc marks are 550/1100 and NET is 101/200. I want to apply to NUST.",
+  "state": {
+    "student_input": "My FSc marks are 550/1100 and NET is 101/200. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": null,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 550,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 101,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 50.38,
+    "eligibility": true,
+    "advice": "You have met the eligibility criteria for admission to NUST, which is a significant achievement. Your calculated merit score of 50.38% indicates that while you have a good foundation, there may be areas where you can improve to increase your competitiveness. Given that your merit score is calculated based on your FSC marks and NET results, with a weightage of 25% and 75% respectively, focusing on improving your NET score could substantially impact your overall merit score. Consider revisiting your preparation strategy for the NET, as this could be a key factor in enhancing your score. Nonetheless, with an eligibility status that clears you for admission, you should feel encouraged to proceed with your application, and it's worth exploring the various programs NUST has to offer.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1520,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": null,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 550,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 101,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 1,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 1,
+        "output": {
+          "merit_score": 50.38,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1979,
+        "output": {
+          "advice": "You have met the eligibility criteria for admission to NUST, which is a significant achievement. Your calculated merit score of 50.38% indicates that while you have a good foundation, there may be areas where you can improve to increase your competitiveness. Given that your merit score is calculated based on your FSC marks and NET results, with a weightage of 25% and 75% respectively, focusing on improving your NET score could substantially impact your overall merit score. Consider revisiting your preparation strategy for the NET, as this could be a key factor in enhancing your score. Nonetheless, with an eligibility status that clears you for admission, you should feel encouraged to proceed with your application, and it's worth exploring the various programs NUST has to offer."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1505,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's eligibility, provides a balanced view of their merit score, and offers constructive suggestions for improvement, specifically highlighting the impact of the NET score on the overall merit score."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's eligibility, provides a balanced view of their merit score, and offers constructive suggestions for improvement, specifically highlighting the impact of the NET score on the overall merit score."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:07:00.882342Z",
+  "pipeline_version": "v3"
+}

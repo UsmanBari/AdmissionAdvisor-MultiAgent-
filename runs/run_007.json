@@ -1,0 +1,16 @@
+{
+  "student_input": "I got 1020 in Matric, 990 in FSc, but I couldn't attend the MDCAT exam. I want to apply to King Edward Medical University.",
+  "state": {
+    "student_input": "I got 1020 in Matric, 990 in FSc, but I couldn't attend the MDCAT exam. I want to apply to King Edward Medical University.",
+    "student_profile": {},
+    "formula": {},
+    "merit_score": 0,
+    "eligibility": false,
+    "advice": "Unfortunately, not attending the MDCAT exam makes you ineligible for King Edward Medical University. The MDCAT is a mandatory requirement for admission. Consider preparing for the next MDCAT exam and applying again. Your Matric and FSc scores are competitive, so focus on acing the MDCAT to increase your chances of getting in.",
+    "checked": false,
+    "grader_score": {},
+    "errors": []
+  },
+  "timestamp": "2026-07-11T06:35:36.651882Z",
+  "prompt_version": "single_agent_v1.md"
+}

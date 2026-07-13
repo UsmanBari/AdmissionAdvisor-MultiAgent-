@@ -1,0 +1,114 @@
+{
+  "student_input": "My FSc marks are 550/1100 and NET is 98/200. I want to apply to NUST.",
+  "state": {
+    "student_input": "My FSc marks are 550/1100 and NET is 98/200. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": null,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 550,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": 98,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 49.25,
+    "eligibility": false,
+    "advice": "Although your merit score of 49.25% is close, unfortunately, you are not eligible for admission to NUST at this time. Focus on improving your FSC marks, as they contribute 25% to your merit score. Since your FSC score is 550 out of 1100, which is 50%, and your NET score is 98 out of 200, which is 49%, consider retaking the NET to increase your overall merit score, as it contributes 75% to your merit score. With a higher NET score, you may be able to increase your merit score above the required threshold for eligibility.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1489,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": null,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 550,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": 98,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 1,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 49.25,
+          "eligibility": false,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1836,
+        "output": {
+          "advice": "Although your merit score of 49.25% is close, unfortunately, you are not eligible for admission to NUST at this time. Focus on improving your FSC marks, as they contribute 25% to your merit score. Since your FSC score is 550 out of 1100, which is 50%, and your NET score is 98 out of 200, which is 49%, consider retaking the NET to increase your overall merit score, as it contributes 75% to your merit score. With a higher NET score, you may be able to increase your merit score above the required threshold for eligibility."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1553,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly explains the reasons for ineligibility, provides a breakdown of the merit score components, and offers actionable suggestions for improvement, such as retaking the NET to increase the overall merit score."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It clearly explains the reasons for ineligibility, provides a breakdown of the merit score components, and offers actionable suggestions for improvement, such as retaking the NET to increase the overall merit score."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "NUST"
+  },
+  "timestamp": "2026-07-11T07:01:50.597971Z",
+  "pipeline_version": "v3"
+}

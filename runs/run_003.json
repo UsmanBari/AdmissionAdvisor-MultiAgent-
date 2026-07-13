@@ -1,0 +1,16 @@
+{
+  "student_input": "Hello, I got 950 marks in Matric, 880 in FSc and my ECAT score is 230 out of 400. Can I get admission in UET Lahore?",
+  "state": {
+    "student_input": "Hello, I got 950 marks in Matric, 880 in FSc and my ECAT score is 230 out of 400. Can I get admission in UET Lahore?",
+    "student_profile": {},
+    "formula": {},
+    "merit_score": 74.29,
+    "eligibility": true,
+    "advice": "You have a good chance of getting admission in UET Lahore, keep an eye on the merit list and prepare for the interview, your scores are competitive, so stay positive and hopeful.",
+    "checked": false,
+    "grader_score": {},
+    "errors": []
+  },
+  "timestamp": "2026-07-11T06:35:30.548090Z",
+  "prompt_version": "single_agent_v1.md"
+}

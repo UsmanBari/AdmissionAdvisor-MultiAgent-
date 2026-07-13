@@ -1,0 +1,105 @@
+{
+  "student_input": "My FSc marks are 550/1100 and NET is 101/200. I want to apply to NUST.",
+  "state": {
+    "student_input": "My FSc marks are 550/1100 and NET is 101/200. I want to apply to NUST.",
+    "student_profile": {
+      "marks": {
+        "fsc": {
+          "obtained": 550,
+          "total": 1100
+        },
+        "net": {
+          "obtained": 101,
+          "total": 200
+        }
+      },
+      "university_raw": "NUST"
+    },
+    "formula": {
+      "fsc": 0.25,
+      "net": 0.75
+    },
+    "merit_score": 50.38,
+    "eligibility": true,
+    "advice": "Congratulations on your calculated merit score of 50.38%! While you have met the eligibility criteria, your merit score is indeed below the average cutoff for NUST. I want to be honest with you - admission to top universities like NUST is highly competitive, and there are many talented students vying for a limited number of spots. Your FSC marks of 550 out of 1100 are a significant area of concern, as they carry a higher weightage in the merit formula. Considering the merit formula used, which gives 25% weightage to FSC marks and 75% weightage to NET marks, it's essential to focus on improving your FSC marks to increase your chances of getting admitted to your desired program. I understand that this may be a challenging task, but with dedication and hard work, you can achieve your goals. It's also worth exploring other universities that align with your academic goals and interests, as they may have more flexible admission criteria. Remember, your merit score of 50.38% is still a great achievement, and you should be proud of your hard work and dedication. Keep pushing yourself to excel in your studies and beyond!",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 4707,
+        "output": {
+          "marks": {
+            "fsc": {
+              "obtained": 550,
+              "total": 1100
+            },
+            "net": {
+              "obtained": 101,
+              "total": 200
+            }
+          },
+          "university_raw": "NUST"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 1,
+        "output": {
+          "formula": {
+            "fsc": 0.25,
+            "net": 0.75
+          },
+          "formula_display": "25% FSc + 75% NET",
+          "found": true,
+          "matched_university": "NUST"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 50.38,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 4773,
+        "output": {
+          "advice": "Congratulations on your admission to NUST! Your calculated merit score of 50.38% is a great achievement. Based on the merit formula used, which gives 25% weightage to FSC marks and 75% weightage to NET marks, your FSC marks of 550 out of 1100 and NET marks of 101 out of 200 have been taken into account. You have met the eligibility criteria, which means you are eligible for admission to NUST. However, it's worth noting that your merit score is below the average cutoff for NUST. To improve your chances of getting admitted to your desired program, consider focusing on your NET marks, as they carry a higher weightage in the merit formula. Additionally, you may want to explore other universities that align with your academic goals and interests. Keep in mind that admission to top universities like NUST is highly competitive, and there are many talented students vying for a limited number of spots. Nevertheless, your hard work and dedication have paid off, and you should be proud of your achievement. Keep pushing yourself to excel in your studies and beyond!"
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 5488,
+        "output": {
+          "approved": false,
+          "reason": "The advice is overly optimistic and does not accurately reflect the student's merit score. The student's merit score of 50.38% is below the average cutoff for NUST, and the advice should be more realistic about their chances of getting admitted to their desired program. Additionally, the advice should not be encouraging the student to focus on improving their NET marks, as their FSC marks are already significantly lower than their NET marks, and the merit formula gives more weightage to FSC marks."
+        }
+      },
+      "advisor_attempt_2": {
+        "duration_ms": 8772,
+        "output": {
+          "advice": "Congratulations on your calculated merit score of 50.38%! While you have met the eligibility criteria, your merit score is indeed below the average cutoff for NUST. I want to be honest with you - admission to top universities like NUST is highly competitive, and there are many talented students vying for a limited number of spots. Your FSC marks of 550 out of 1100 are a significant area of concern, as they carry a higher weightage in the merit formula. Considering the merit formula used, which gives 25% weightage to FSC marks and 75% weightage to NET marks, it's essential to focus on improving your FSC marks to increase your chances of getting admitted to your desired program. I understand that this may be a challenging task, but with dedication and hard work, you can achieve your goals. It's also worth exploring other universities that align with your academic goals and interests, as they may have more flexible admission criteria. Remember, your merit score of 50.38% is still a great achievement, and you should be proud of your hard work and dedication. Keep pushing yourself to excel in your studies and beyond!"
+        }
+      },
+      "checker_attempt_2": {
+        "duration_ms": 5653,
+        "output": {
+          "approved": false,
+          "reason": "The advice is overly optimistic and does not accurately reflect the student's chances of admission to NUST. While it's true that the student has met the eligibility criteria, the merit score of 50.38 is significantly below the average cutoff for NUST. The advice should be more realistic and honest about the student's chances, rather than encouraging them to focus on improving their FSC marks as a means to increase their chances of admission to NUST."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": false,
+      "reason": "The advice is overly optimistic and does not accurately reflect the student's chances of admission to NUST. While it's true that the student has met the eligibility criteria, the merit score of 50.38 is significantly below the average cutoff for NUST. The advice should be more realistic and honest about the student's chances, rather than encouraging them to focus on improving their FSC marks as a means to increase their chances of admission to NUST."
+    },
+    "rewrite_count": 1,
+    "pipeline_version": "v3",
+    "university_matched": "NUST",
+    "cache_hit": false,
+    "run_file": "run_100.json"
+  },
+  "timestamp": "2026-07-11T07:32:27.671168Z",
+  "pipeline_version": "v3"
+}

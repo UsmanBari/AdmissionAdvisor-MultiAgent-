@@ -1,0 +1,89 @@
+{
+  "student_input": "I have 1100/1100 in Matric, 1100/1100 in FSc, and 200/200 in MDCAT. I want to apply to King Edward Medical University.",
+  "state": {
+    "student_input": "I have 1100/1100 in Matric, 1100/1100 in FSc, and 200/200 in MDCAT. I want to apply to King Edward Medical University.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 1100,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 1100,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": 200,
+          "total": 200
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "King Edward Medical University"
+    },
+    "formula": {
+      "matric": 0.1,
+      "fsc": 0.4,
+      "mdcat": 0.5
+    },
+    "merit_score": 100.0,
+    "eligibility": true,
+    "advice": "Congratulations on achieving a perfect merit score of 100.0%! With a flawless academic record, including 100% marks in matric, FSC, and MDCAT, you have a strong profile for admission to King Edward Medical University. Given your eligibility status is true, you should confidently apply to your desired program. Ensure you meet all other admission requirements and submit your application well before the deadline to secure your spot. Best of luck!",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "marks": {
+          "matric": {
+            "obtained": 1100,
+            "total": 1100
+          },
+          "fsc": {
+            "obtained": 1100,
+            "total": 1100
+          },
+          "mdcat": {
+            "obtained": 200,
+            "total": 200
+          },
+          "ecat": {
+            "obtained": null,
+            "total": null
+          },
+          "net": {
+            "obtained": null,
+            "total": null
+          }
+        },
+        "university_raw": "King Edward Medical University"
+      },
+      "formula_picker": {
+        "formula": {
+          "matric": 0.1,
+          "fsc": 0.4,
+          "mdcat": 0.5
+        },
+        "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+        "found": true
+      },
+      "calculator": {
+        "merit_score": 100.0,
+        "eligibility": true,
+        "error": null
+      },
+      "advisor": {
+        "advice": "Congratulations on achieving a perfect merit score of 100.0%! With a flawless academic record, including 100% marks in matric, FSC, and MDCAT, you have a strong profile for admission to King Edward Medical University. Given your eligibility status is true, you should confidently apply to your desired program. Ensure you meet all other admission requirements and submit your application well before the deadline to secure your spot. Best of luck!"
+      }
+    }
+  },
+  "timestamp": "2026-07-11T06:43:03.454273Z",
+  "pipeline_version": "pipeline_v1"
+}

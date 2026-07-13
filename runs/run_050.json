@@ -1,0 +1,116 @@
+{
+  "student_input": "Hello, I got 950 marks in Matric, 880 in FSc and my ECAT score is 230 out of 400. Can I get admission in UET Lahore?",
+  "state": {
+    "student_input": "Hello, I got 950 marks in Matric, 880 in FSc and my ECAT score is 230 out of 400. Can I get admission in UET Lahore?",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 950,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 880,
+          "total": null
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": 230,
+          "total": 400
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "UET Lahore"
+    },
+    "formula": {
+      "matric": 0.25,
+      "fsc": 0.45,
+      "ecat": 0.3
+    },
+    "merit_score": 74.84,
+    "eligibility": true,
+    "advice": "You are eligible for admission, which is a significant achievement. With your calculated merit score of 74.84%, you have demonstrated a strong academic foundation, particularly considering your marks in the ECAT, where you scored 230 out of 400. To further enhance your chances, it would be beneficial to review the specific requirements for UET Lahore, as each institution may have unique criteria. Given your current standing, it's essential to stay focused and prepare for any additional assessments or interviews that may be part of the admission process. Keep in mind that your matric and FSC scores also play a crucial role in the merit formula, with weights of 0.25 and 0.45 respectively, alongside your ECAT score, which carries a weight of 0.3. Continue to work diligently, and with persistence and the right strategy, you can navigate the admissions process successfully.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1997,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 950,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 880,
+              "total": null
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": 230,
+              "total": 400
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "UET Lahore"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 3,
+        "output": {
+          "formula": {
+            "matric": 0.25,
+            "fsc": 0.45,
+            "ecat": 0.3
+          },
+          "formula_display": "25% Matric + 45% FSc + 30% ECAT",
+          "found": true,
+          "matched_university": "UET Lahore"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 74.84,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 2349,
+        "output": {
+          "advice": "You are eligible for admission, which is a significant achievement. With your calculated merit score of 74.84%, you have demonstrated a strong academic foundation, particularly considering your marks in the ECAT, where you scored 230 out of 400. To further enhance your chances, it would be beneficial to review the specific requirements for UET Lahore, as each institution may have unique criteria. Given your current standing, it's essential to stay focused and prepare for any additional assessments or interviews that may be part of the admission process. Keep in mind that your matric and FSC scores also play a crucial role in the merit formula, with weights of 0.25 and 0.45 respectively, alongside your ECAT score, which carries a weight of 0.3. Continue to work diligently, and with persistence and the right strategy, you can navigate the admissions process successfully."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 2019,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's eligibility, provides a balanced view of their academic performance, and offers constructive guidance for further improvement and preparation for the admission process."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the score and eligibility given. It acknowledges the student's eligibility, provides a balanced view of their academic performance, and offers constructive guidance for further improvement and preparation for the admission process."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "UET Lahore"
+  },
+  "timestamp": "2026-07-11T07:13:25.098474Z",
+  "pipeline_version": "v3"
+}

@@ -1,0 +1,116 @@
+{
+  "student_input": "I got 1010/1100 in Matric, 970/1100 in FSc and 185 in MDCAT. I want to apply to King Edward Medical University.",
+  "state": {
+    "student_input": "I got 1010/1100 in Matric, 970/1100 in FSc and 185 in MDCAT. I want to apply to King Edward Medical University.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 1010,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 970,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": 185,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "King Edward Medical University"
+    },
+    "formula": {
+      "matric": 0.1,
+      "fsc": 0.4,
+      "mdcat": 0.5
+    },
+    "merit_score": 90.7,
+    "eligibility": true,
+    "advice": "Congratulations, you have met the eligibility criteria and your calculated merit score of 90.7% is quite impressive. Given your academic background, including your matric and FSC marks, combined with your performance in the MDCAT, you have a strong profile for admission to King Edward Medical University. With this merit score, you stand a good chance of securing a spot. It's essential to stay confident and prepared for the next steps in the admission process. Keep in mind that the competition can be fierce, but your current standing is a testament to your hard work and dedication. Best of luck as you move forward.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 2539,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 1010,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 970,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": 185,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "King Edward Medical University"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "matric": 0.1,
+            "fsc": 0.4,
+            "mdcat": 0.5
+          },
+          "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+          "found": true,
+          "matched_university": "King Edward Medical University"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": 90.7,
+          "eligibility": true,
+          "error": null
+        }
+      },
+      "advisor_attempt_1": {
+        "duration_ms": 1949,
+        "output": {
+          "advice": "Congratulations, you have met the eligibility criteria and your calculated merit score of 90.7% is quite impressive. Given your academic background, including your matric and FSC marks, combined with your performance in the MDCAT, you have a strong profile for admission to King Edward Medical University. With this merit score, you stand a good chance of securing a spot. It's essential to stay confident and prepared for the next steps in the admission process. Keep in mind that the competition can be fierce, but your current standing is a testament to your hard work and dedication. Best of luck as you move forward."
+        }
+      },
+      "checker_attempt_1": {
+        "duration_ms": 1439,
+        "output": {
+          "approved": true,
+          "reason": "The advice is realistic, honest, and consistent with the merit score and eligibility status. It acknowledges the student's strong profile, provides encouragement, and also mentions the potential competition, offering a balanced and supportive perspective."
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": true,
+      "reason": "The advice is realistic, honest, and consistent with the merit score and eligibility status. It acknowledges the student's strong profile, provides encouragement, and also mentions the potential competition, offering a balanced and supportive perspective."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "King Edward Medical University"
+  },
+  "timestamp": "2026-07-11T07:12:49.915688Z",
+  "pipeline_version": "v3"
+}
