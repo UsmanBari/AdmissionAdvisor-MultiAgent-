@@ -1,0 +1,96 @@
+{
+  "student_input": "I scored 850 in Matric and 810 in FSc. I didn't take any entrance test. I want to apply to Greenwood Institute of Science and Technology for BS IT.",
+  "state": {
+    "student_input": "I scored 850 in Matric and 810 in FSc. I didn't take any entrance test. I want to apply to Greenwood Institute of Science and Technology for BS IT.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 850,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 810,
+          "total": null
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        },
+        "nu_test": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "Greenwood Institute of Science and Technology for BS IT"
+    },
+    "formula": {},
+    "merit_score": 0.0,
+    "eligibility": false,
+    "advice": "",
+    "checked": false,
+    "grader_score": {},
+    "errors": [
+      "University 'Greenwood Institute of Science and Technology for BS IT' could not be matched to any official university list."
+    ],
+    "stage": "failed_at_formula_picker",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1960,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 850,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 810,
+              "total": null
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            },
+            "nu_test": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "Greenwood Institute of Science and Technology for BS IT"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 1804,
+        "output": {
+          "formula": {},
+          "formula_display": "",
+          "found": false,
+          "matched_university": null
+        }
+      }
+    },
+    "checker_verdict": {},
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": null,
+    "cache_hit": false,
+    "run_file": "run_139.json"
+  },
+  "timestamp": "2026-07-15T07:04:05.674725Z",
+  "pipeline_version": "v3"
+}

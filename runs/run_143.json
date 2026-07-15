@@ -1,0 +1,110 @@
+{
+  "student_input": "I have 950 in Matric and 890 in FSc. I want to apply to FAST-NUCES but I did not take the NU Test.",
+  "state": {
+    "student_input": "I have 950 in Matric and 890 in FSc. I want to apply to FAST-NUCES but I did not take the NU Test.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 950,
+          "total": null
+        },
+        "fsc": {
+          "obtained": 890,
+          "total": null
+        },
+        "mdcat": {
+          "obtained": null,
+          "total": null
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        },
+        "nu_test": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "FAST-NUCES"
+    },
+    "formula": {
+      "fsc": 0.5,
+      "nu_test": 0.5
+    },
+    "merit_score": 0.0,
+    "eligibility": false,
+    "advice": "",
+    "checked": false,
+    "grader_score": {},
+    "errors": [
+      "missing required mark: nu_test"
+    ],
+    "stage": "failed_at_calculator",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1903,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 950,
+              "total": null
+            },
+            "fsc": {
+              "obtained": 890,
+              "total": null
+            },
+            "mdcat": {
+              "obtained": null,
+              "total": null
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            },
+            "nu_test": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "FAST-NUCES"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "fsc": 0.5,
+            "nu_test": 0.5
+          },
+          "formula_display": "50% FSc + 50% NU Test",
+          "found": true,
+          "matched_university": "FAST NUCES"
+        }
+      },
+      "calculator": {
+        "duration_ms": 0,
+        "output": {
+          "merit_score": null,
+          "eligibility": false,
+          "error": "missing required mark: nu_test"
+        }
+      }
+    },
+    "checker_verdict": {},
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "FAST NUCES",
+    "cache_hit": false,
+    "run_file": "run_143.json"
+  },
+  "timestamp": "2026-07-15T07:04:13.754094Z",
+  "pipeline_version": "v3"
+}

@@ -1,0 +1,105 @@
+{
+  "student_input": "I have 1100/1100 in Matric, 1100/1100 in FSc, and 200/200 in MDCAT. I want to apply to King Edward Medical University.",
+  "state": {
+    "student_input": "I have 1100/1100 in Matric, 1100/1100 in FSc, and 200/200 in MDCAT. I want to apply to King Edward Medical University.",
+    "student_profile": {
+      "marks": {
+        "matric": {
+          "obtained": 1100,
+          "total": 1100
+        },
+        "fsc": {
+          "obtained": 1100,
+          "total": 1100
+        },
+        "mdcat": {
+          "obtained": 200,
+          "total": 200
+        },
+        "ecat": {
+          "obtained": null,
+          "total": null
+        },
+        "net": {
+          "obtained": null,
+          "total": null
+        },
+        "nu_test": {
+          "obtained": null,
+          "total": null
+        }
+      },
+      "university_raw": "King Edward Medical University"
+    },
+    "formula": {
+      "matric": 0.1,
+      "fsc": 0.4,
+      "mdcat": 0.5
+    },
+    "merit_score": 100.0,
+    "eligibility": true,
+    "advice": "Congratulations on achieving a calculated merit score of 100.0%! We're thrilled to see your excellent performance in the MDcat, where you scored 200 out of 200. Your marks in Matric and FSC are also impressive, with a perfect score of 1100 out of 1100 in both cases. However, we noticed that you didn't take the Ecat, NET, or NU test. Considering your strong academic background, it's essential to understand that these tests can provide valuable opportunities for growth and improvement. We recommend that you take these tests in the future to further enhance your skills and knowledge. You have met the eligibility criteria for admission to King Edward Medical University, and we're confident that you'll excel in your academic pursuits. Keep up the fantastic work and remember that hard work and dedication have paid off in a big way. You should be proud of yourself for achieving this remarkable feat. To further improve, we suggest focusing on areas where you may have scored lower in the MDcat, such as critical thinking or problem-solving. Additionally, consider seeking guidance from your teachers or mentors to help you identify areas for improvement and develop strategies to overcome any challenges you may face. With your strong foundation and a willingness to learn and grow, we're confident that you'll achieve great things in the future.",
+    "checked": false,
+    "grader_score": {},
+    "errors": [],
+    "stage": "complete",
+    "intermediate_outputs": {
+      "reader": {
+        "duration_ms": 1523,
+        "output": {
+          "marks": {
+            "matric": {
+              "obtained": 1100,
+              "total": 1100
+            },
+            "fsc": {
+              "obtained": 1100,
+              "total": 1100
+            },
+            "mdcat": {
+              "obtained": 200,
+              "total": 200
+            },
+            "ecat": {
+              "obtained": null,
+              "total": null
+            },
+            "net": {
+              "obtained": null,
+              "total": null
+            },
+            "nu_test": {
+              "obtained": null,
+              "total": null
+            }
+          },
+          "university_raw": "King Edward Medical University"
+        }
+      },
+      "formula_picker": {
+        "duration_ms": 0,
+        "output": {
+          "formula": {
+            "matric": 0.1,
+            "fsc": 0.4,
+            "mdcat": 0.5
+          },
+          "formula_display": "10% Matric + 40% FSc + 50% MDCAT",
+          "found": true,
+          "matched_university": "King Edward Medical University"
+        }
+      }
+    },
+    "checker_verdict": {
+      "approved": false,
+      "reason": "The advice is overly positive and does not accurately reflect the student's performance in the MDcat. The student scored 200 out of 200, which is not possible. A more realistic approach would be to acknowledge the student's excellent performance while also providing constructive feedback on areas for improvement."
+    },
+    "rewrite_count": 0,
+    "pipeline_version": "v3",
+    "university_matched": "King Edward Medical University",
+    "cache_hit": true,
+    "run_file": "run_129.json"
+  },
+  "timestamp": "2026-07-13T05:41:59.984713Z",
+  "pipeline_version": "v3"
+}
